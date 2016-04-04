@@ -1,5 +1,5 @@
 {
-  "name": "keycode-constants",
+  "name": "keycode-js",
   "version": "0.0.0",
   "description": "A javascript package with Key Code constants",
   "main": "index.js",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kabirbaidhya/keycode-constants.git"
+    "url": "git+https://github.com/kabirbaidhya/keycode-js.git"
   },
   "author": "Kabir Baidhya <kabirbaidhya@gmail.com>",
   "keywords": [
