@@ -21,8 +21,8 @@ Or, using `<script>` tags:
 Here you go:
 ```javascript
 window.addEventListener('keyup', function(e) {
-    if (e.keyCode === KeyCode.KEY_ENTER) {
-        console.log('It was the Enter key.');
+    if (e.keyCode === KeyCode.KEY_RETURN) {
+        console.log('It was the Return key.');
     } else {
         console.log('It was any other key.');
     }
