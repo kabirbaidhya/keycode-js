@@ -4,6 +4,8 @@
 
 A minimal javascript package with Key Code constants.
 
+More more information [see this](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/keyCode#Constants_for_keyCode_value). 
+
 ## Installation
 
 ```bash
