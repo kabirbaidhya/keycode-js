@@ -2,6 +2,7 @@
 [![NPM Version][npm-image]][npm-url]
 [npm-image]: https://badge.fury.io/js/keycode-js.svg
 [npm-url]: https://www.npmjs.com/package/keycode-js
+[![Code Climate](https://codeclimate.com/github/kabirbaidhya/keycode-js/badges/gpa.svg)](https://codeclimate.com/github/kabirbaidhya/keycode-js)
 
 A minimal javascript package with Key Code constants.
 
