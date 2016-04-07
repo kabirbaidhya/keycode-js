@@ -1,4 +1,5 @@
-# KeyCode Constants [![NPM Version][npm-image]][npm-url]
+# KeyCode Constants
+[![NPM Version][npm-image]][npm-url]
 [npm-image]: https://badge.fury.io/js/keycode-js.svg
 [npm-url]: https://www.npmjs.com/package/keycode-js
 
