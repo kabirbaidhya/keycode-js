@@ -48,9 +48,8 @@ window["KeyCode"] =
   \******************/
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
-	
 	module.exports = __webpack_require__(/*! ./lib/KeyCode.js */ 1).default;
+
 
 /***/ },
 /* 1 */
@@ -67,123 +66,129 @@ window["KeyCode"] =
 	
 	exports.default = function () {
 	
+	    var keys = {
+	        KEY_CANCEL: 3,
+	        KEY_HELP: 6,
+	        KEY_BACK_SPACE: 8,
+	        KEY_TAB: 9,
+	        KEY_CLEAR: 12,
+	        KEY_RETURN: 13,
+	        KEY_ENTER: 14,
+	        KEY_SHIFT: 16,
+	        KEY_CONTROL: 17,
+	        KEY_ALT: 18,
+	        KEY_PAUSE: 19,
+	        KEY_CAPS_LOCK: 20,
+	        KEY_ESCAPE: 27,
+	        KEY_SPACE: 32,
+	        KEY_PAGE_UP: 33,
+	        KEY_PAGE_DOWN: 34,
+	        KEY_END: 35,
+	        KEY_HOME: 36,
+	        KEY_LEFT: 37,
+	        KEY_UP: 38,
+	        KEY_RIGHT: 39,
+	        KEY_DOWN: 40,
+	        KEY_PRINTSCREEN: 44,
+	        KEY_INSERT: 45,
+	        KEY_DELETE: 46,
+	        KEY_0: 48,
+	        KEY_1: 49,
+	        KEY_2: 50,
+	        KEY_3: 51,
+	        KEY_4: 52,
+	        KEY_5: 53,
+	        KEY_6: 54,
+	        KEY_7: 55,
+	        KEY_8: 56,
+	        KEY_9: 57,
+	        KEY_SEMICOLON: 59,
+	        KEY_EQUALS: 61,
+	        KEY_A: 65,
+	        KEY_B: 66,
+	        KEY_C: 67,
+	        KEY_D: 68,
+	        KEY_E: 69,
+	        KEY_F: 70,
+	        KEY_G: 71,
+	        KEY_H: 72,
+	        KEY_I: 73,
+	        KEY_J: 74,
+	        KEY_K: 75,
+	        KEY_L: 76,
+	        KEY_M: 77,
+	        KEY_N: 78,
+	        KEY_O: 79,
+	        KEY_P: 80,
+	        KEY_Q: 81,
+	        KEY_R: 82,
+	        KEY_S: 83,
+	        KEY_T: 84,
+	        KEY_U: 85,
+	        KEY_V: 86,
+	        KEY_W: 87,
+	        KEY_X: 88,
+	        KEY_Y: 89,
+	        KEY_Z: 90,
+	        KEY_CONTEXT_MENU: 93,
+	        KEY_NUMPAD0: 96,
+	        KEY_NUMPAD1: 97,
+	        KEY_NUMPAD2: 98,
+	        KEY_NUMPAD3: 99,
+	        KEY_NUMPAD4: 100,
+	        KEY_NUMPAD5: 101,
+	        KEY_NUMPAD6: 102,
+	        KEY_NUMPAD7: 103,
+	        KEY_NUMPAD8: 104,
+	        KEY_NUMPAD9: 105,
+	        KEY_MULTIPLY: 106,
+	        KEY_ADD: 107,
+	        KEY_SEPARATOR: 108,
+	        KEY_SUBTRACT: 109,
+	        KEY_DECIMAL: 110,
+	        KEY_DIVIDE: 111,
+	        KEY_F1: 112,
+	        KEY_F2: 113,
+	        KEY_F3: 114,
+	        KEY_F4: 115,
+	        KEY_F5: 116,
+	        KEY_F6: 117,
+	        KEY_F7: 118,
+	        KEY_F8: 119,
+	        KEY_F9: 120,
+	        KEY_F10: 121,
+	        KEY_F11: 122,
+	        KEY_F12: 123,
+	        KEY_F13: 124,
+	        KEY_F14: 125,
+	        KEY_F15: 126,
+	        KEY_F16: 127,
+	        KEY_F17: 128,
+	        KEY_F18: 129,
+	        KEY_F19: 130,
+	        KEY_F20: 131,
+	        KEY_F21: 132,
+	        KEY_F22: 133,
+	        KEY_F23: 134,
+	        KEY_F24: 135,
+	        KEY_NUM_LOCK: 144,
+	        KEY_SCROLL_LOCK: 145,
+	        KEY_COMMA: 188,
+	        KEY_PERIOD: 190,
+	        KEY_SLASH: 191,
+	        KEY_BACK_QUOTE: 192,
+	        KEY_OPEN_BRACKET: 219,
+	        KEY_BACK_SLASH: 220,
+	        KEY_CLOSE_BRACKET: 221,
+	        KEY_QUOTE: 222,
+	        KEY_META: 224
+	    };
+	
 	    function KeyCode() {}
 	
-	    KeyCode.KEY_CANCEL = 3;
-	    KeyCode.KEY_HELP = 6;
-	    KeyCode.KEY_BACK_SPACE = 8;
-	    KeyCode.KEY_TAB = 9;
-	    KeyCode.KEY_CLEAR = 12;
-	    KeyCode.KEY_RETURN = 13;
-	    KeyCode.KEY_ENTER = 14;
-	    KeyCode.KEY_SHIFT = 16;
-	    KeyCode.KEY_CONTROL = 17;
-	    KeyCode.KEY_ALT = 18;
-	    KeyCode.KEY_PAUSE = 19;
-	    KeyCode.KEY_CAPS_LOCK = 20;
-	    KeyCode.KEY_ESCAPE = 27;
-	    KeyCode.KEY_SPACE = 32;
-	    KeyCode.KEY_PAGE_UP = 33;
-	    KeyCode.KEY_PAGE_DOWN = 34;
-	    KeyCode.KEY_END = 35;
-	    KeyCode.KEY_HOME = 36;
-	    KeyCode.KEY_LEFT = 37;
-	    KeyCode.KEY_UP = 38;
-	    KeyCode.KEY_RIGHT = 39;
-	    KeyCode.KEY_DOWN = 40;
-	    KeyCode.KEY_PRINTSCREEN = 44;
-	    KeyCode.KEY_INSERT = 45;
-	    KeyCode.KEY_DELETE = 46;
-	    KeyCode.KEY_0 = 48;
-	    KeyCode.KEY_1 = 49;
-	    KeyCode.KEY_2 = 50;
-	    KeyCode.KEY_3 = 51;
-	    KeyCode.KEY_4 = 52;
-	    KeyCode.KEY_5 = 53;
-	    KeyCode.KEY_6 = 54;
-	    KeyCode.KEY_7 = 55;
-	    KeyCode.KEY_8 = 56;
-	    KeyCode.KEY_9 = 57;
-	    KeyCode.KEY_SEMICOLON = 59;
-	    KeyCode.KEY_EQUALS = 61;
-	    KeyCode.KEY_A = 65;
-	    KeyCode.KEY_B = 66;
-	    KeyCode.KEY_C = 67;
-	    KeyCode.KEY_D = 68;
-	    KeyCode.KEY_E = 69;
-	    KeyCode.KEY_F = 70;
-	    KeyCode.KEY_G = 71;
-	    KeyCode.KEY_H = 72;
-	    KeyCode.KEY_I = 73;
-	    KeyCode.KEY_J = 74;
-	    KeyCode.KEY_K = 75;
-	    KeyCode.KEY_L = 76;
-	    KeyCode.KEY_M = 77;
-	    KeyCode.KEY_N = 78;
-	    KeyCode.KEY_O = 79;
-	    KeyCode.KEY_P = 80;
-	    KeyCode.KEY_Q = 81;
-	    KeyCode.KEY_R = 82;
-	    KeyCode.KEY_S = 83;
-	    KeyCode.KEY_T = 84;
-	    KeyCode.KEY_U = 85;
-	    KeyCode.KEY_V = 86;
-	    KeyCode.KEY_W = 87;
-	    KeyCode.KEY_X = 88;
-	    KeyCode.KEY_Y = 89;
-	    KeyCode.KEY_Z = 90;
-	    KeyCode.KEY_CONTEXT_MENU = 93;
-	    KeyCode.KEY_NUMPAD0 = 96;
-	    KeyCode.KEY_NUMPAD1 = 97;
-	    KeyCode.KEY_NUMPAD2 = 98;
-	    KeyCode.KEY_NUMPAD3 = 99;
-	    KeyCode.KEY_NUMPAD4 = 100;
-	    KeyCode.KEY_NUMPAD5 = 101;
-	    KeyCode.KEY_NUMPAD6 = 102;
-	    KeyCode.KEY_NUMPAD7 = 103;
-	    KeyCode.KEY_NUMPAD8 = 104;
-	    KeyCode.KEY_NUMPAD9 = 105;
-	    KeyCode.KEY_MULTIPLY = 106;
-	    KeyCode.KEY_ADD = 107;
-	    KeyCode.KEY_SEPARATOR = 108;
-	    KeyCode.KEY_SUBTRACT = 109;
-	    KeyCode.KEY_DECIMAL = 110;
-	    KeyCode.KEY_DIVIDE = 111;
-	    KeyCode.KEY_F1 = 112;
-	    KeyCode.KEY_F2 = 113;
-	    KeyCode.KEY_F3 = 114;
-	    KeyCode.KEY_F4 = 115;
-	    KeyCode.KEY_F5 = 116;
-	    KeyCode.KEY_F6 = 117;
-	    KeyCode.KEY_F7 = 118;
-	    KeyCode.KEY_F8 = 119;
-	    KeyCode.KEY_F9 = 120;
-	    KeyCode.KEY_F10 = 121;
-	    KeyCode.KEY_F11 = 122;
-	    KeyCode.KEY_F12 = 123;
-	    KeyCode.KEY_F13 = 124;
-	    KeyCode.KEY_F14 = 125;
-	    KeyCode.KEY_F15 = 126;
-	    KeyCode.KEY_F16 = 127;
-	    KeyCode.KEY_F17 = 128;
-	    KeyCode.KEY_F18 = 129;
-	    KeyCode.KEY_F19 = 130;
-	    KeyCode.KEY_F20 = 131;
-	    KeyCode.KEY_F21 = 132;
-	    KeyCode.KEY_F22 = 133;
-	    KeyCode.KEY_F23 = 134;
-	    KeyCode.KEY_F24 = 135;
-	    KeyCode.KEY_NUM_LOCK = 144;
-	    KeyCode.KEY_SCROLL_LOCK = 145;
-	    KeyCode.KEY_COMMA = 188;
-	    KeyCode.KEY_PERIOD = 190;
-	    KeyCode.KEY_SLASH = 191;
-	    KeyCode.KEY_BACK_QUOTE = 192;
-	    KeyCode.KEY_OPEN_BRACKET = 219;
-	    KeyCode.KEY_BACK_SLASH = 220;
-	    KeyCode.KEY_CLOSE_BRACKET = 221;
-	    KeyCode.KEY_QUOTE = 222;
-	    KeyCode.KEY_META = 224;
+	    Object.keys(keys).forEach(function (key) {
+	        KeyCode[key] = keys[key];
+	    });
 	
 	    return KeyCode;
 	}();
