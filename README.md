@@ -11,9 +11,12 @@ More more information [see this](https://developer.mozilla.org/en-US/docs/Web/AP
 $ npm install keycode-js --save
 ```
 ## Usage
-Include the package using common js `require()`:
+Include the package using common js `require()` or ES2015 `import`:
 ```javascript
 var KeyCode = require('keycode-js');
+
+// ES2015+
+import KeyCode from 'keycode-js';
 ```
 Or, using `<script>` tags:
 ```html
