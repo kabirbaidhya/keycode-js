@@ -1,0 +1,23 @@
+{
+  "name": "keycode-js",
+  "description": "A javascript package with Key Code constants",
+  "main": "dist/keycode.js",
+  "authors": [
+    "Kabir Baidhya <kabirbaidhya@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "javascript",
+    "keycode",
+    "constants"
+  ],
+  "homepage": "https://github.com/kabirbaidhya/keycode-js",
+  "ignore": [
+    "src",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "webpack.config.js"
+  ]
+}

@@ -8,8 +8,16 @@ More more information [see this](https://developer.mozilla.org/en-US/docs/Web/AP
 ## Installation
 
 ```bash
+# Using npm
 $ npm install keycode-js --save
+
+# Using Yarn
+$ yarn add keycode-js
+
+# Using Bower
+$ bower install keycode-js --save
 ```
+
 ## Usage
 Include the package using common js `require()` or ES2015 `import`:
 ```javascript
