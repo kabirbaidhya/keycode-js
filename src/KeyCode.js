@@ -1,6 +1,6 @@
 export default (() => {
 
-    var keys = {
+    let keys = {
         KEY_CANCEL: 3,
         KEY_HELP: 6,
         KEY_BACK_SPACE: 8,
@@ -120,7 +120,7 @@ export default (() => {
 
     function KeyCode() {}
 
-    Object.keys(keys).forEach((key) => {
+    Object.keys(keys).forEach(key => {
         KeyCode[key] = keys[key];
     });
 
