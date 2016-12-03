@@ -165,4 +165,3 @@ window.addEventListener('keyup', function(e) {
 | Close Bracket  | KEY_CLOSE_BRACKET         | 221      |
 | Quote          | KEY_QUOTE                 | 222      |
 | Meta           | KEY_META                  | 224      |
----------------------------------------------------------
