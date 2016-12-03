@@ -11,6 +11,7 @@
     "babelify": "^7.3.0",
     "browserify": "^13.1.1",
     "chai": "^3.5.0",
+    "eslint": "^3.11.1",
     "karma": "^1.3.0",
     "karma-browserify": "^5.1.0",
     "karma-mocha": "^1.3.0",
@@ -25,6 +26,7 @@
     "bundle": "webpack -d --output-filename keycode.js && webpack -p --output-filename keycode.min.js",
     "build": "npm run transpile && npm run bundle",
     "prepublish": "npm run build",
+    "lint": "eslint src test; exit 0",
     "test": "karma start --single-run"
   },
   "repository": {
