@@ -18,13 +18,18 @@
     "karma-phantomjs-launcher": "^1.0.2",
     "karma-spec-reporter": "0.0.26",
     "mocha": "^3.2.0",
+    "npm-run-all": "^3.1.2",
+    "rimraf": "^2.5.4",
     "watchify": "^3.7.0",
     "webpack": "^1.12.14"
   },
   "scripts": {
     "transpile": "babel src -d lib",
-    "bundle": "webpack -d --output-filename keycode.js && webpack -p --output-filename keycode.min.js",
-    "build": "npm run transpile && npm run bundle",
+    "bundle:p": "webpack -p --output-filename keycode.min.js",
+    "bundle:d": "webpack -d --output-filename keycode.js",
+    "clean": "rimraf lib/ dist/",
+    "bundle": "run-s bundle:*",
+    "build": "run-s clean transpile bundle",
     "prepublish": "npm run build",
     "lint": "eslint src test; exit 0",
     "test": "karma start --single-run"
