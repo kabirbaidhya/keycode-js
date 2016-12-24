@@ -3,8 +3,6 @@
 
 A minimal javascript package with Key Code constants.
 
-More more information [see this](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/keyCode#Constants_for_keyCode_value).
-
 ## Installation
 
 ```bash
@@ -20,7 +18,7 @@ $ bower install keycode-js --save
 
 ## Usage
 
-Include the package using common js `require()` or ES2015 `import`:
+Include the package using CommonJS `require()` or ES2015 `import`:
 
 ```javascript
 var KeyCode = require('keycode-js');
@@ -48,6 +46,9 @@ window.addEventListener('keyup', function(e) {
 ```
 
 ## All Constants
+
+For more information [click here](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/keyCode#Constants_for_keyCode_value).
+
 | Key Name       | Constant                  | Value    |
 |----------------|---------------------------|----------|
 | Cancel         | KEY_CANCEL                | 3        |
