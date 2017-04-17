@@ -166,3 +166,7 @@ For more information [click here](https://developer.mozilla.org/en-US/docs/Web/A
 | Close Bracket  | KEY_CLOSE_BRACKET         | 221      |
 | Quote          | KEY_QUOTE                 | 222      |
 | Meta           | KEY_META                  | 224      |
+
+
+## License
+This package is licensed under the [MIT License](LICENSE).
