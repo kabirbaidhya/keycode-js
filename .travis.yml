@@ -7,6 +7,4 @@ node_js:
 before_script:
   - yarn build
 script:
-  - yarn test:coverage
-after_script:
-  - yarn codecov
+  - yarn test
