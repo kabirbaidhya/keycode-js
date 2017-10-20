@@ -1,5 +1,6 @@
 # KeyCode Constants
 [![npm version](https://img.shields.io/npm/v/keycode-js.svg?style=flat-square)](https://www.npmjs.com/package/keycode-js) [![npm downloads](https://img.shields.io/npm/dt/keycode-js.svg?style=flat-square)](https://www.npmjs.com/package/keycode-js) [![Code Climate](https://img.shields.io/codeclimate/github/kabirbaidhya/keycode-js.svg?style=flat-square)](https://codeclimate.com/github/kabirbaidhya/keycode-js)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 
 A minimal javascript package with Key Code constants.
 
