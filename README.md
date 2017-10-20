@@ -172,5 +172,8 @@ For more information [click here](https://developer.mozilla.org/en-US/docs/Web/A
 ## Contributing
 All kinds of contributions are welcome. Please feel free to propose PRs, report issues and suggestions to improve.
 
+## Changelog
+Check the [CHANGELOG](CHANGELOG.md) for full release history.
+
 ## License
 This package is licensed under the [MIT License](LICENSE).

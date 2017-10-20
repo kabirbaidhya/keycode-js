@@ -30,6 +30,7 @@
     "clean": "rimraf lib/ dist/",
     "bundle": "run-s bundle:*",
     "build": "run-s clean transpile bundle",
+    "changelog": "./t changelog",
     "prepublish": "npm run build",
     "lint": "eslint src test; exit 0",
     "test": "karma start --single-run"
@@ -39,10 +40,6 @@
     "url": "git+https://github.com/kabirbaidhya/keycode-js.git"
   },
   "author": "Kabir Baidhya <kabirbaidhya@gmail.com>",
-  "keywords": [
-    "javascript",
-    "keycode",
-    "constants"
-  ],
+  "keywords": ["javascript", "keycode", "constants"],
   "license": "MIT"
 }
