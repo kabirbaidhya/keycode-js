@@ -33,6 +33,7 @@
     "changelog": "./t changelog",
     "prepublish": "npm run build",
     "lint": "eslint src test; exit 0",
+    "lint:fix": "eslint --fix src test; exit 0",
     "test": "NODE_ENV=test mocha"
   },
   "repository": {
