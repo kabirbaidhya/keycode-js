@@ -249,7 +249,7 @@ describe('KeyCode', () => {
         assert.equal(KeyCode.KEY_X, 88);
     });
     it('KEY_Y should return 89', () => {
-        assert.equal(KeyCode.KEY_X, 88);
+        assert.equal(KeyCode.KEY_Y, 89);
     });
 
     it('KEY_Z should return 90', () => {
