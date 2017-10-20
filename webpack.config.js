@@ -1,5 +1,3 @@
-var webpack = require('webpack');
-
 module.exports = {
     output: {
         library: 'KeyCode',
