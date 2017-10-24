@@ -1,1 +1,1 @@
-module.exports = require('./lib/KeyCode.js').default;
+module.exports = require('./lib/KeyCode');
