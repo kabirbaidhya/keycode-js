@@ -1,7 +1,7 @@
 {
   "name": "keycode-js",
-  "description": "A javascript package with Key Code constants",
-  "main": "dist/keycode.js",
+  "description": "A JavaScript package with Key Code constants",
+  "main": "dist/keycode.min.js",
   "authors": [
     "Kabir Baidhya <kabirbaidhya@gmail.com>"
   ],
@@ -13,11 +13,9 @@
   ],
   "homepage": "https://github.com/kabirbaidhya/keycode-js",
   "ignore": [
-    "src",
+    "test",
     "node_modules",
     "bower_components",
-    "test",
-    "tests",
-    "webpack.config.js"
+    "rollup.config.js"
   ]
 }
