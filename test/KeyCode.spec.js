@@ -1,5 +1,5 @@
-import { assert } from 'chai';
-import KeyCode from '../src/KeyCode';
+const assert = require('chai').assert;
+const KeyCode = require('../index');
 
 /**
  * KeyCode test.
