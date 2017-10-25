@@ -13,8 +13,14 @@
   ],
   "homepage": "https://github.com/kabirbaidhya/keycode-js",
   "ignore": [
+    "t",
     "test",
+    "yarn.lock",
+    ".eslintrc",
+    ".travis.yml",
+    ".editorconfig",
     "node_modules",
+    ".codeclimate.yml",
     "bower_components",
     "rollup.config.js"
   ]
