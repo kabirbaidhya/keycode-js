@@ -10,10 +10,9 @@ engines:
     enabled: true
 ratings:
   paths:
-  - src/**
+  - lib/**
 exclude_paths:
 - dist/*
-- lib/**/*
-- tests/**/*
+- test/**/*
 - coverage/**/*
 - node_modules/**/*

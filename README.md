@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](#contributing)
 
-A minimal javascript package with Key Code constants.
+A minimal JavaScript package with Key Code constants.
 
 ## Installation
 
@@ -24,11 +24,14 @@ $ bower install keycode-js --save
 
 Include the package using CommonJS `require()` or ES2015 `import`:
 
-```javascript
-var KeyCode = require('keycode-js');
+```js
+const KeyCode = require('keycode-js');
 
 // ES2015+
 import KeyCode from 'keycode-js';
+
+// Import individual key code
+import { KEY_RETURN } from 'keycode-js';
 ```
 
 Or, using `<script>` tag:
@@ -39,7 +42,7 @@ Or, using `<script>` tag:
 
 Here you go:
 
-```javascript
+```js
 window.addEventListener('keyup', function(e) {
     if (e.keyCode === KeyCode.KEY_RETURN) {
         console.log('It was the Return key.');

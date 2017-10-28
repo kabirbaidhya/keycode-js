@@ -1,41 +1,38 @@
 {
   "name": "keycode-js",
   "version": "0.0.4",
-  "description": "A javascript package with Key Code constants",
+  "description": "A JavaScript package with Key Code constants",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "babel-cli": "^6.6.5",
-    "babel-loader": "^6.2.4",
-    "babel-preset-es2015": "^6.6.0",
-    "babelify": "^7.3.0",
-    "browserify": "^13.1.1",
-    "chai": "^3.5.0",
-    "eslint": "^3.11.1",
+    "chai": "^4.1.2",
+    "eslint": "^4.9.0",
     "mocha": "^4.0.1",
-    "npm-run-all": "^3.1.2",
-    "rimraf": "^2.5.4",
-    "watchify": "^3.7.0",
-    "webpack": "^1.12.14"
+    "npm-run-all": "^4.1.1",
+    "rimraf": "^2.6.2",
+    "rollup": "^0.50.0",
+    "rollup-plugin-commonjs": "^8.2.4",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-uglify": "^2.0.1"
   },
   "scripts": {
-    "transpile": "babel src -d lib",
-    "bundle:p": "webpack -p --output-filename keycode.min.js",
-    "bundle:d": "webpack -d --output-filename keycode.js",
-    "clean": "rimraf lib/ dist/",
-    "bundle": "run-s bundle:*",
-    "build": "run-s clean transpile bundle",
+    "bundle": "rollup -c rollup.config.js",
+    "clean": "rimraf dist/",
+    "build": "run-s clean bundle",
     "changelog": "./t changelog",
     "prepublish": "npm run build",
-    "lint": "eslint src test; exit 0",
-    "lint:fix": "eslint --fix src test; exit 0",
-    "test": "NODE_ENV=test mocha"
+    "lint": "eslint --fix index.js rollup.config.js src test",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kabirbaidhya/keycode-js.git"
   },
   "author": "Kabir Baidhya <kabirbaidhya@gmail.com>",
-  "keywords": ["javascript", "keycode", "constants"],
+  "keywords": [
+    "javascript",
+    "keycode",
+    "constants"
+  ],
   "license": "MIT"
 }

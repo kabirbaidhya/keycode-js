@@ -1,3 +1,10 @@
-src/
-tests/
-webpack.config.js
+t
+test/
+
+yarn.lock
+rollup.config.js
+
+.eslintrc
+.travis.yml
+.editorconfig
+.codeclimate.yml
