@@ -1,5 +1,28 @@
 # Change Log
 
+## [v1.0.0](https://github.com/kabirbaidhya/keycode-js/tree/v1.0.0) (2017-12-22)
+[Full Changelog](https://github.com/kabirbaidhya/keycode-js/compare/v0.0.4...v1.0.0)
+
+**Implemented enhancements:**
+
+- Generate type definitions \(d.ts\) file to add support for TypeScript [\#6](https://github.com/kabirbaidhya/keycode-js/issues/6) [[enhancement](https://github.com/kabirbaidhya/keycode-js/labels/enhancement)] [[feature](https://github.com/kabirbaidhya/keycode-js/labels/feature)]
+- Replace webpack with rollup [\#3](https://github.com/kabirbaidhya/keycode-js/issues/3) [[enhancement](https://github.com/kabirbaidhya/keycode-js/labels/enhancement)]
+- Use named export to export each key code separately [\#10](https://github.com/kabirbaidhya/keycode-js/pull/10) [[enhancement](https://github.com/kabirbaidhya/keycode-js/labels/enhancement)] [[refactor](https://github.com/kabirbaidhya/keycode-js/labels/refactor)] ([mesaugat](https://github.com/mesaugat))
+- Add TypeScript declaration file [\#8](https://github.com/kabirbaidhya/keycode-js/pull/8) [[enhancement](https://github.com/kabirbaidhya/keycode-js/labels/enhancement)] ([bryanjhv](https://github.com/bryanjhv))
+- Add changelog and changelog generation script [\#7](https://github.com/kabirbaidhya/keycode-js/pull/7) [[doc](https://github.com/kabirbaidhya/keycode-js/labels/doc)] [[enhancement](https://github.com/kabirbaidhya/keycode-js/labels/enhancement)] ([kabirbaidhya](https://github.com/kabirbaidhya))
+
+**Closed issues:**
+
+- Use ES2015 individual `export` instead of returning a wrapper object with constants. [\#5](https://github.com/kabirbaidhya/keycode-js/issues/5) [[refactor](https://github.com/kabirbaidhya/keycode-js/labels/refactor)]
+- Write unit tests to test it returns all the constant keys with correct values [\#4](https://github.com/kabirbaidhya/keycode-js/issues/4) [[test](https://github.com/kabirbaidhya/keycode-js/labels/test)]
+- Integrate Travis CI and add a travis badge [\#2](https://github.com/kabirbaidhya/keycode-js/issues/2)
+
+**Improvements:**
+
+- Major overhaul and refactor [\#12](https://github.com/kabirbaidhya/keycode-js/pull/12) [[refactor](https://github.com/kabirbaidhya/keycode-js/labels/refactor)] ([mesaugat](https://github.com/mesaugat))
+- Integrate Travis CI for runnings tests [\#11](https://github.com/kabirbaidhya/keycode-js/pull/11) [[test](https://github.com/kabirbaidhya/keycode-js/labels/test)] ([kabirbaidhya](https://github.com/kabirbaidhya))
+- Add tests for all the key code constants [\#9](https://github.com/kabirbaidhya/keycode-js/pull/9) [[test](https://github.com/kabirbaidhya/keycode-js/labels/test)] ([frameshft](https://github.com/frameshft))
+
 ## [v0.0.4](https://github.com/kabirbaidhya/keycode-js/tree/v0.0.4) (2016-12-05)
 [Full Changelog](https://github.com/kabirbaidhya/keycode-js/compare/v0.0.3...v0.0.4)
 
