@@ -1,6 +1,6 @@
 {
   "name": "keycode-js",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "description": "A JavaScript package with Key Code constants",
   "main": "index.js",
   "dependencies": {},
