@@ -30,7 +30,10 @@ const KeyCode = require('keycode-js');
 // ES2015+
 import KeyCode from 'keycode-js';
 
-// Import individual key code
+// TypeScript
+import * as KeyCode from 'keycode-js';
+
+// Import individual constants
 import { KEY_RETURN } from 'keycode-js';
 ```
 
