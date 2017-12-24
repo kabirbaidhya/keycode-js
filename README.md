@@ -44,11 +44,11 @@ Here you go:
 
 ```js
 window.addEventListener('keyup', function(e) {
-    if (e.keyCode === KeyCode.KEY_RETURN) {
-        console.log('It was the Return key.');
-    } else {
-        console.log('It was any other key.');
-    }
+  if (e.keyCode === KeyCode.KEY_RETURN) {
+    console.log('It was the Return key.');
+  } else {
+    console.log('It was any other key.');
+  }
 });
 ```
 
