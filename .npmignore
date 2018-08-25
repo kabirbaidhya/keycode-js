@@ -7,4 +7,3 @@ rollup.config.js
 .eslintrc
 .travis.yml
 .editorconfig
-.codeclimate.yml
