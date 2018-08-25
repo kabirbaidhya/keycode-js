@@ -1,9 +1,8 @@
 # KeyCode Constants
+
 [![npm version](https://img.shields.io/npm/v/keycode-js.svg?style=flat-square)](https://www.npmjs.com/package/keycode-js) [![npm downloads](https://img.shields.io/npm/dt/keycode-js.svg?style=flat-square)](https://www.npmjs.com/package/keycode-js)
 [![Build Status](https://img.shields.io/travis/kabirbaidhya/keycode-js.svg?style=flat-square)](https://travis-ci.org/kabirbaidhya/keycode-js)
-[![Code Climate](https://img.shields.io/codeclimate/github/kabirbaidhya/keycode-js.svg?style=flat-square)](https://codeclimate.com/github/kabirbaidhya/keycode-js)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](#contributing)
 
 A minimal JavaScript package with Key Code constants.
 
@@ -178,10 +177,13 @@ For more information [click here](https://developer.mozilla.org/en-US/docs/Web/A
 | Meta           | KEY_META                  | 224      |
 
 ## Contributing
+
 All kinds of contributions are welcome. Please feel free to propose PRs, report issues and suggestions to improve.
 
 ## Changelog
+
 Check the [CHANGELOG](CHANGELOG.md) for full release history.
 
 ## License
+
 This package is licensed under the [MIT License](LICENSE).
