@@ -3,13 +3,13 @@ import commonjs from 'rollup-plugin-commonjs';
 import resolve from 'rollup-plugin-node-resolve';
 
 export default {
-    name: 'KeyCode',
     input: 'index.js',
     output: {
+        name: 'KeyCode',
         format: 'umd',
-        file: 'dist/keycode.min.js'
+        file: 'dist/keycode.min.js',
+        sourcemap: true
     },
-    sourcemap: true,
     plugins: [
         resolve({
             jsnext: true,
