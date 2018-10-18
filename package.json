@@ -3,6 +3,8 @@
   "version": "1.0.2",
   "description": "A JavaScript package with Key Code constants",
   "main": "index.js",
+  "unpkg": "dist/keycode.min.js",
+  "jsdelivr": "dist/keycode.min.js",
   "devDependencies": {
     "chai": "^4.1.2",
     "eslint": "^5.4.0",

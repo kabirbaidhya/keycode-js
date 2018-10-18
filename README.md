@@ -39,10 +39,10 @@ import { KEY_RETURN } from 'keycode-js';
 Or, using `<script>` tag:
 
 ```html
-<script type="text/javascript" src="/path/to/keycode-js/dist/keycode.min.js"></script>
+<script src="https://unpkg.com/keycode-js@1.0.3/dist/keycode.min.js"></script>
 ```
 
-Here you go:
+Finally:
 
 ```js
 window.addEventListener('keyup', function(e) {
