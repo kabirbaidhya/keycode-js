@@ -1,6 +1,6 @@
 {
   "name": "keycode-js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A JavaScript package with Key Code constants",
   "main": "index.js",
   "unpkg": "dist/keycode.min.js",
