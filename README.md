@@ -123,6 +123,8 @@ For more information [click here](https://developer.mozilla.org/en-US/docs/Web/A
 | X              | KEY_X                     | 88       |
 | Y              | KEY_Y                     | 89       |
 | Z              | KEY_Z                     | 90       |
+| Left ⌘         | KEY_LEFT_CMD              | 91       |
+| Right ⌘        | KEY_RIGHT_CMD             | 93       |
 | Context Menu   | KEY_CONTEXT_MENU          | 93       |
 | Numpad 0       | KEY_NUMPAD0               | 96       |
 | Numpad 1       | KEY_NUMPAD1               | 97       |
