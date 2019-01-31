@@ -62,6 +62,8 @@ declare module 'keycode-js' {
     export const KEY_X: number;
     export const KEY_Y: number;
     export const KEY_Z: number;
+    export const KEY_LEFT_CMD: number;
+    export const KEY_RIGHT_CMD: number;
     export const KEY_CONTEXT_MENU: number;
     export const KEY_NUMPAD0: number;
     export const KEY_NUMPAD1: number;
