@@ -256,6 +256,10 @@ describe('KeyCode', () => {
         assert.equal(KeyCode.KEY_Z, 90);
     });
 
+    it('KEY_LEFT_CMD equals 91', () => {
+        assert.equal(KeyCode.KEY_LEFT_CMD, 91);
+    });
+
     it('KEY_CONTEXT_MENU equals 93', () => {
         assert.equal(KeyCode.KEY_CONTEXT_MENU, 93);
     });
