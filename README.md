@@ -39,7 +39,7 @@ import { KEY_RETURN } from 'keycode-js';
 Or, using `<script>` tag:
 
 ```html
-<script src="https://unpkg.com/keycode-js@1.0.3/dist/keycode.min.js"></script>
+<script src="https://unpkg.com/keycode-js@1.0.4/dist/keycode.min.js"></script>
 ```
 
 Finally:
