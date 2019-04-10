@@ -4,7 +4,7 @@
 [![Build Status](https://img.shields.io/travis/kabirbaidhya/keycode-js.svg?style=flat-square)](https://travis-ci.org/kabirbaidhya/keycode-js)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 
-A minimal JavaScript package with Key Code constants.
+A minimal JavaScript package with key code constants.
 
 ## Installation
 
@@ -12,16 +12,16 @@ A minimal JavaScript package with Key Code constants.
 # Using npm
 $ npm install keycode-js --save
 
-# Using Yarn
+# Using yarn
 $ yarn add keycode-js
 
-# Using Bower
+# Using bower
 $ bower install keycode-js --save
 ```
 
 ## Usage
 
-Include the package using CommonJS `require()` or ES2015/TypeScript `import`:
+Include the package using `require()` or ES2015/TypeScript `import` statement:
 
 ```js
 const KeyCode = require('keycode-js');
