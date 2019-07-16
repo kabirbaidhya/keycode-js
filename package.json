@@ -19,7 +19,7 @@
     "build": "rimraf dist/ && rollup -c rollup.config.js",
     "changelog": "./t changelog",
     "prepublish": "npm run build",
-    "lint": "eslint --fix index.js rollup.config.js src test",
+    "lint": "eslint --fix index.js rollup.config.js lib/ test/",
     "test": "mocha"
   },
   "repository": {
