@@ -21,7 +21,7 @@
     "changelog": "./t changelog",
     "prepublish": "npm run build",
     "lint": "eslint --fix index.js rollup.config.js lib/ test/",
-    "test": "mocha"
+    "test": "yarn build && mocha"
   },
   "repository": {
     "type": "git",
