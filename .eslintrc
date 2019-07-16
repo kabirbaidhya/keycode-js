@@ -11,9 +11,6 @@
   },
   "rules": {
     "strict": 0,
-    "no-var": 2,
-    "indent": [2, 4],
-    "semi": [2, "always"],
-    "quotes": [2, "single"]
+    "no-var": 2
   }
 }
