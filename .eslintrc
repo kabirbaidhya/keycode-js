@@ -1,5 +1,5 @@
 {
-  "extends": "eslint:recommended",
+  "extends": "eslint-config-leapfrog",
   "env": {
     "es6": true,
     "node": true,
