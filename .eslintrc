@@ -8,9 +8,5 @@
   "parserOptions": {
     "ecmaVersion": 6,
     "sourceType": "module"
-  },
-  "rules": {
-    "strict": 0,
-    "no-var": 2
   }
 }
