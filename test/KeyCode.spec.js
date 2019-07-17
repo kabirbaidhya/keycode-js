@@ -9,8 +9,8 @@ test(KeyCodeDist, 'KeyCode generated build (Minified dist file)');
 /**
  * Tests for KeyCode constants.
  *
- * @param {*} importedModule
- * @param {*} description
+ * @param {object} importedModule
+ * @param {string} description
  */
 function test(importedModule, description) {
   describe(description, () => {
