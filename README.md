@@ -4,6 +4,7 @@
 [![Build Status](https://img.shields.io/travis/kabirbaidhya/keycode-js.svg?style=flat-square)](https://travis-ci.org/kabirbaidhya/keycode-js)
 [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/kabirbaidhya/keycode-js.svg?style=flat-square&logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/kabirbaidhya/keycode-js/context:javascript)
 [![npm downloads](https://img.shields.io/npm/dt/keycode-js.svg?style=flat-square)](https://www.npmjs.com/package/keycode-js)
+![GitHub contributors](https://img.shields.io/github/contributors/kabirbaidhya/keycode-js.svg?style=flat-square)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/kabirbaidhya/keycode-js)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 
