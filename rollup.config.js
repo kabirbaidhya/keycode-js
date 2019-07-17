@@ -11,11 +11,7 @@ export default {
     sourcemap: true
   },
   plugins: [
-    resolve({
-      jsnext: true,
-      main: true,
-      browser: true
-    }),
+    resolve(),
     commonjs(),
     uglify()
   ]
