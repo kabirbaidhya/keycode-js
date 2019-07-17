@@ -6,7 +6,7 @@ changelog() {
   # https://github.com/skywinder/github-changelog-generator
 
   if [ -z "$NEXT" ]; then
-      NEXT="Next"
+      NEXT="next"
   fi
 
   # Change unpkg URL to latest keycode-js version
