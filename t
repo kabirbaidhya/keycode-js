@@ -6,8 +6,11 @@ changelog() {
   # https://github.com/skywinder/github-changelog-generator
 
   if [ -z "$NEXT" ]; then
-      NEXT="Next"
+      NEXT="next"
   fi
+
+  # Change unpkg URL to latest keycode-js version
+  sed -i -E "s/\keycode-js@[^\/]+/keycode-js@$NEXT/" README.md
 
   echo "Generating changelog upto version: $NEXT"
   github_changelog_generator --pr-label "**Improvements:**" --issue-line-labels=ALL --future-release="$NEXT"
