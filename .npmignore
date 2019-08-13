@@ -1,9 +1,0 @@
-t
-test/
-
-yarn.lock
-rollup.config.js
-
-.eslintrc
-.travis.yml
-.editorconfig
