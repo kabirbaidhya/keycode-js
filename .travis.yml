@@ -7,3 +7,7 @@ node_js:
   - 8
 
 cache: yarn
+
+before_script:
+  - curl -fsSL https://deno.land/x/install/install.sh | sh
+  - export PATH="/home/travis/.deno/bin:$PATH"
