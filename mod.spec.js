@@ -1,11 +1,9 @@
 const assert = require('chai').assert;
 
 const KeyCodeLib = require('./dist/keycode.cjs.js');
-const KeyCodeDist = require('./dist/keycode.min.js');
 
 // Run tests.
-test(KeyCodeLib, 'KeyCode library (Common JS / EcmaScript imported module)');
-test(KeyCodeDist, 'KeyCode minified build');
+test(KeyCodeLib, 'KeyCode CommonJS Build');
 
 /**
  * Tests for KeyCode constants.
