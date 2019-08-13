@@ -10,7 +10,9 @@
   "unpkg": "dist/keycode.min.js",
   "jsdelivr": "dist/keycode.min.js",
   "files": [
-    "dist"
+    "dist",
+    "mod.d.ts",
+    "bower.json"
   ],
   "repository": {
     "type": "git",
