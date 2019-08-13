@@ -14,7 +14,7 @@ export default [
     input: 'mod.ts',
     output: {
       name: 'KeyCode',
-      format: 'umd',
+      format: 'iife',
       file: 'dist/keycode.min.js',
       sourcemap: true
     },
