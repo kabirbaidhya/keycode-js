@@ -58,6 +58,18 @@ window.addEventListener('keyup', function(e) {
 });
 ```
 
+## Usage with Deno
+
+```ts
+// Import all constants
+import * as KeyCode from 'https://deno.land/x/keycode-js/mod.ts';
+
+// Import individual constants
+import { KEY_ENTER } from 'https://deno.land/x/keycode-js/mod.ts';
+
+console.assert(KeyCode.KEY_ENTER === KEY_ENTER);
+```
+
 ## Available Constants
 
 For more information [click here](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/keyCode#Constants_for_keyCode_value).
