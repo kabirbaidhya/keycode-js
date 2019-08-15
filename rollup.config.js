@@ -1,18 +1,34 @@
-import { uglify } from 'rollup-plugin-uglify';
-import commonjs from 'rollup-plugin-commonjs';
-import resolve from 'rollup-plugin-node-resolve';
+import { terser } from "rollup-plugin-terser";
+import typescript from 'rollup-plugin-typescript2';
 
-export default {
-  input: 'index.js',
-  output: {
-    name: 'KeyCode',
-    format: 'umd',
-    file: 'dist/keycode.min.js',
-    sourcemap: true
+export default [
+  {
+    input: 'mod.ts',
+    output: {
+      name: 'KeyCode',
+      format: 'cjs',
+      file: 'dist/keycode.cjs.js'
+    }
   },
-  plugins: [
-    resolve(),
-    commonjs(),
-    uglify()
-  ]
-};
+  {
+    input: 'mod.ts',
+    output: {
+      name: 'KeyCode',
+      format: 'iife',
+      file: 'dist/keycode.min.js',
+      sourcemap: true
+    },
+    plugins: [
+      typescript(),
+      terser()
+    ]
+  },
+  {
+    input: 'mod.ts',
+    output: {
+      name: 'KeyCode',
+      format: 'esm',
+      file: 'dist/keycode.es6.js'
+    }
+  }
+];

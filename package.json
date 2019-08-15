@@ -2,36 +2,40 @@
   "name": "keycode-js",
   "version": "1.0.4",
   "description": "A JavaScript package with Key Code constants",
-  "main": "index.js",
+  "license": "MIT",
+  "author": "Kabir Baidhya <kabirbaidhya@gmail.com>",
+  "main": "dist/keycode.cjs.js",
+  "module": "dist/keycode.es6.js",
+  "types": "mod.d.ts",
   "unpkg": "dist/keycode.min.js",
   "jsdelivr": "dist/keycode.min.js",
-  "devDependencies": {
-    "chai": "^4.1.2",
-    "eslint": "^6.0.1",
-    "eslint-config-leapfrog": "^2.0.0-beta.0",
-    "mocha": "^6.1.4",
-    "rimraf": "^2.6.2",
-    "rollup": "^1.17.0",
-    "rollup-plugin-commonjs": "^10.0.1",
-    "rollup-plugin-node-resolve": "^5.2.0",
-    "rollup-plugin-uglify": "^6.0.2"
-  },
-  "scripts": {
-    "build": "rimraf dist/ && rollup -c rollup.config.js",
-    "changelog": "./t changelog",
-    "prepublish": "npm run build",
-    "lint": "eslint --fix index.js rollup.config.js lib/ test/",
-    "test": "yarn build && mocha"
-  },
+  "files": [
+    "dist",
+    "mod.d.ts",
+    "bower.json"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kabirbaidhya/keycode-js.git"
   },
-  "author": "Kabir Baidhya <kabirbaidhya@gmail.com>",
   "keywords": [
     "javascript",
     "keycode",
     "constants"
   ],
-  "license": "MIT"
+  "scripts": {
+    "changelog": "./t changelog",
+    "prepublishOnly": "npm run build",
+    "build": "rimraf dist/ && rollup -c rollup.config.js",
+    "test": "npm run build && mocha mod.spec.js && deno test.ts"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^6.2.0",
+    "rimraf": "^2.6.2",
+    "rollup": "^1.17.0",
+    "rollup-plugin-terser": "^5.1.1",
+    "rollup-plugin-typescript2": "^0.22.1",
+    "typescript": "^3.5.3"
+  }
 }
