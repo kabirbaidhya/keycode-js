@@ -9,10 +9,13 @@
   "ignore": [
     "t",
     "test",
+    "mod.d.ts",
     "yarn.lock",
     ".travis.yml",
-    ".editorconfig",
+    "mod.spec.js",
     "node_modules",
+    "tsconfig.json",
+    ".editorconfig",
     "bower_components",
     "rollup.config.js"
   ]
