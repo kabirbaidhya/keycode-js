@@ -27,5 +27,13 @@ export default [
       format: 'esm',
       file: 'dist/keycode.es6.js'
     }
+  },
+  {
+    input: 'test-definitions.ts',
+    output: {
+      format: 'cjs',
+      file: 'dist/test-definitions.cjs.js'
+    },
+    plugins: [typescript()]
   }
 ];
