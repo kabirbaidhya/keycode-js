@@ -31,7 +31,7 @@ Include the package using `require()` or ES2015/TypeScript `import` statement:
 const KeyCode = require('keycode-js');
 
 // ES2015+
-import KeyCode from 'keycode-js';
+import * as KeyCode from 'keycode-js';
 
 // TypeScript
 import * as KeyCode from 'keycode-js';
