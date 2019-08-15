@@ -4,7 +4,7 @@ import { assertEquals } from 'https://deno.land/std/testing/asserts.ts';
 import * as KeyCode from './mod.ts';
 import { defineTests } from './test-definitions.ts';
 
-/** Test Definitions */
+// Tests for Deno.
 defineTests(KeyCode, { test, assertEquals });
 
 runTests();
