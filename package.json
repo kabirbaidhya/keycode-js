@@ -19,9 +19,13 @@
     "url": "git+https://github.com/kabirbaidhya/keycode-js.git"
   },
   "keywords": [
-    "javascript",
     "keycode",
-    "constants"
+    "constants",
+    "javascript",
+    "typescript",
+    "deno",
+    "js",
+    "ts"
   ],
   "scripts": {
     "changelog": "./t changelog",
