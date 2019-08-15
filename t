@@ -16,5 +16,12 @@ changelog() {
   github_changelog_generator --pr-label "**Improvements:**" --issue-line-labels=ALL --future-release="$NEXT"
 }
 
+test() {
+  echo;\
+    echo "Node (common js) module tests" && mocha mod.test.js && \
+    echo "Deno module tests" && deno test.ts
+  # TODO: Browser Tests
+}
+
 # Run command received from args.
 $1

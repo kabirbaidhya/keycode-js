@@ -5,7 +5,6 @@ import * as KeyCode from './mod.ts';
 import { defineTests } from './test-definitions.ts';
 
 // Tests for Deno Module.
-console.log('Deno Module');
 defineTests(KeyCode, { test, assertEquals });
 
 runTests();

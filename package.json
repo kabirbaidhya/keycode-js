@@ -34,7 +34,7 @@
     "changelog": "./t changelog",
     "prepublishOnly": "yarn build",
     "build": "rimraf dist/ && rollup -c rollup.config.js",
-    "test": "yarn build && mocha mod.test.js && deno test.ts"
+    "test": "yarn build && ./t test"
   },
   "devDependencies": {
     "chai": "^4.1.2",
