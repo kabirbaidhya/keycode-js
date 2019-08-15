@@ -1,7 +1,7 @@
 const { assert } = require('chai');
 
-const { defineTests } = require('./dist/test-definitions.cjs');
 const KeyCode = require('./dist/keycode.cjs.js');
+const { defineTests } = require('./dist/test-definitions.cjs');
 
 // Tests for Node (Common JS) Module.
 defineTests(KeyCode, {
