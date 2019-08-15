@@ -190,6 +190,11 @@ All kinds of contributions are welcome. Please feel free to propose PRs, report 
 
 Check the [CHANGELOG](CHANGELOG.md) for full release history.
 
+## Maintainers
+
+ * [Kabir Baidhya](https://github.com/kabirbaidhya)
+ * [Saugat Acharya](https://github.com/mesaugat)
+
 ## License
 
 This package is licensed under the [MIT License](LICENSE).

@@ -4,6 +4,9 @@
   "description": "A JavaScript package with Key Code constants",
   "license": "MIT",
   "author": "Kabir Baidhya <kabirbaidhya@gmail.com>",
+  "contributors": [
+    "Saugat Acharya <mesaugat@gmail.com>"
+  ],
   "main": "dist/keycode.cjs.js",
   "module": "dist/keycode.es6.js",
   "types": "mod.d.ts",
