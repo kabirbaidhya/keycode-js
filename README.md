@@ -28,10 +28,11 @@ $ bower install keycode-js --save
 Include the package using `require()` or ES2015/TypeScript `import` statement:
 
 ```js
+// CommonJS
 const KeyCode = require('keycode-js');
 
 // ES2015+
-import * as KeyCode from 'keycode-js';
+import KeyCode from 'keycode-js';
 
 // TypeScript
 import * as KeyCode from 'keycode-js';
