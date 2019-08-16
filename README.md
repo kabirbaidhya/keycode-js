@@ -28,6 +28,7 @@ $ bower install keycode-js --save
 Include the package using `require()` or ES2015/TypeScript `import` statement:
 
 ```js
+// CommonJS
 const KeyCode = require('keycode-js');
 
 // ES2015+
@@ -56,6 +57,18 @@ window.addEventListener('keyup', function(e) {
     console.log('It was any other key.');
   }
 });
+```
+
+## Usage with Deno
+
+```ts
+// Import all constants
+import * as KeyCode from 'https://deno.land/x/keycode/mod.ts';
+
+// Import individual constants
+import { KEY_ENTER } from 'https://deno.land/x/keycode/mod.ts';
+
+console.assert(KeyCode.KEY_ENTER === KEY_ENTER);
 ```
 
 ## Available Constants
