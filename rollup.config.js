@@ -1,4 +1,4 @@
-import { terser } from "rollup-plugin-terser";
+import { terser } from 'rollup-plugin-terser';
 import typescript from 'rollup-plugin-typescript2';
 
 export default [
@@ -18,10 +18,7 @@ export default [
       file: 'dist/keycode.min.js',
       sourcemap: true
     },
-    plugins: [
-      typescript(),
-      terser()
-    ]
+    plugins: [typescript(), terser()]
   },
   {
     input: 'mod.ts',
