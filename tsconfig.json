@@ -3,7 +3,8 @@
     "module": "es2015",
     "noImplicitAny": true,
     "outDir": "./dist",
-    "target": "es5"
+    "target": "es5",
+    "declaration": true
   },
   "include": ["mod.ts"],
   "exclude": ["node_modules"]
