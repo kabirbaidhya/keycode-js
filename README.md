@@ -26,7 +26,7 @@ $ bower install keycode-js --save
 
 ## Usage
 
-Include the package using `require()` or ES2015/TypeScript `import` statement:
+Import the package using `require()` or ES/TypeScript `import` statement:
 
 ```js
 // CommonJS
@@ -54,9 +54,10 @@ Finally:
 window.addEventListener('keyup', function(e) {
   if (e.keyCode === KeyCode.KEY_RETURN) {
     console.log('It was the Return key.');
-  } else {
-    console.log('It was any other key.');
+    return;
   }
+
+  console.log('It was any other key.');
 });
 ```
 
