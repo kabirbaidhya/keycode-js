@@ -62,10 +62,10 @@ window.addEventListener('keyup', function(e) {
 
 ```ts
 // Import all constants
-import * as KeyCode from 'https://deno.land/x/keycode-js/mod.ts';
+import * as KeyCode from 'https://deno.land/x/keycode/mod.ts';
 
 // Import individual constants
-import { KEY_ENTER } from 'https://deno.land/x/keycode-js/mod.ts';
+import { KEY_ENTER } from 'https://deno.land/x/keycode/mod.ts';
 
 console.assert(KeyCode.KEY_ENTER === KEY_ENTER);
 ```
