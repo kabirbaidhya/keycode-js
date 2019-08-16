@@ -1,15 +1,19 @@
 # Change Log
 
-## [next](https://github.com/kabirbaidhya/keycode-js/tree/next) (2019-07-18)
+## [next](https://github.com/kabirbaidhya/keycode-js/tree/next) (2019-08-16)
 [Full Changelog](https://github.com/kabirbaidhya/keycode-js/compare/v1.0.4...next)
 
-**Implemented enhancements:**
+**Closed issues:**
 
-- Change unpkg URL to next version when creating changelog [\#23](https://github.com/kabirbaidhya/keycode-js/pull/23) [[enhancement](https://github.com/kabirbaidhya/keycode-js/labels/enhancement)] ([mesaugat](https://github.com/mesaugat))
-- Remove deprecated options from rollup config [\#22](https://github.com/kabirbaidhya/keycode-js/pull/22) [[enhancement](https://github.com/kabirbaidhya/keycode-js/labels/enhancement)] ([mesaugat](https://github.com/mesaugat))
+- Add an example for usage with deno [\#26](https://github.com/kabirbaidhya/keycode-js/issues/26) [[example](https://github.com/kabirbaidhya/keycode-js/labels/example)] [[good first issue](https://github.com/kabirbaidhya/keycode-js/labels/good%20first%20issue)] [[help wanted](https://github.com/kabirbaidhya/keycode-js/labels/help%20wanted)]
+- Add support for deno i.e make it available on deno registry [\#21](https://github.com/kabirbaidhya/keycode-js/issues/21) [[feature](https://github.com/kabirbaidhya/keycode-js/labels/feature)]
 
 **Improvements:**
 
+- Include docs for usage with deno [\#27](https://github.com/kabirbaidhya/keycode-js/pull/27) [[documentation](https://github.com/kabirbaidhya/keycode-js/labels/documentation)] ([mesaugat](https://github.com/mesaugat))
+- Make keycode-js compatible with deno [\#24](https://github.com/kabirbaidhya/keycode-js/pull/24) [[feature](https://github.com/kabirbaidhya/keycode-js/labels/feature)] [[refactor](https://github.com/kabirbaidhya/keycode-js/labels/refactor)] ([mesaugat](https://github.com/mesaugat))
+- Change unpkg URL to next version when creating changelog [\#23](https://github.com/kabirbaidhya/keycode-js/pull/23) ([mesaugat](https://github.com/mesaugat))
+- Remove deprecated options from rollup config [\#22](https://github.com/kabirbaidhya/keycode-js/pull/22) ([mesaugat](https://github.com/mesaugat))
 - Run tests for both original library and the generated build  [\#20](https://github.com/kabirbaidhya/keycode-js/pull/20) [[test](https://github.com/kabirbaidhya/keycode-js/labels/test)] ([kabirbaidhya](https://github.com/kabirbaidhya))
 - Use eslint-config-leapfrog for eslint configuration [\#19](https://github.com/kabirbaidhya/keycode-js/pull/19) [[dependencies](https://github.com/kabirbaidhya/keycode-js/labels/dependencies)] ([kabirbaidhya](https://github.com/kabirbaidhya))
 - Remove npm-run-all and other unused dependencies [\#18](https://github.com/kabirbaidhya/keycode-js/pull/18) [[dependencies](https://github.com/kabirbaidhya/keycode-js/labels/dependencies)] ([kabirbaidhya](https://github.com/kabirbaidhya))
