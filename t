@@ -18,9 +18,9 @@ changelog() {
 
 test() {
   echo;\
-    echo "Node (common js) module tests" && mocha mod.test.js && \
-    echo "Deno module tests" && deno test.ts
-  # TODO: Browser Tests
+    echo "Tests for Node (common js)" && mocha mod.test.js && \
+    echo "Tests for Browser" && mocha-headless-chrome -f browser.test.html && \
+    echo "Tests for Deno" && deno test.ts
 }
 
 # Run command received from args.
