@@ -39,6 +39,7 @@
   "devDependencies": {
     "chai": "^4.1.2",
     "mocha": "^6.2.0",
+    "mocha-headless-chrome": "^2.0.3",
     "rimraf": "^2.6.2",
     "rollup": "^1.17.0",
     "rollup-plugin-terser": "^5.1.1",
