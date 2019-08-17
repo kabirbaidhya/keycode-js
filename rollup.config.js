@@ -31,8 +31,9 @@ export default [
   {
     input: 'test-definitions.ts',
     output: {
-      format: 'cjs',
-      file: 'dist/test-definitions.cjs.js'
+      name: 'KeyCodeJSTestDefinitions',
+      format: 'umd',
+      file: 'dist/test-definitions.umd.js'
     },
     plugins: [typescript()]
   }
