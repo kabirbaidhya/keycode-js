@@ -29,7 +29,7 @@ export default [
     }
   },
   {
-    input: 'test-definitions.ts',
+    input: 'test/test-definitions.ts',
     output: {
       name: 'KeyCodeJSTestDefinitions',
       format: 'umd',

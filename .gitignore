@@ -3,3 +3,4 @@ coverage
 *.log
 .rpt2_cache
 dist/test-definitions.*
+dist/test
