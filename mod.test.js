@@ -1,10 +1,11 @@
-const { assert } = require('chai');
+(({ mod, chai, defs }) => {
+  const { assert } = chai;
+  const { defineTests } = defs;
 
-const KeyCode = require('./dist/keycode.cjs');
-const { defineTests } = require('./dist/test-definitions.cjs');
-
-// Tests for Node (Common JS) Module.
-defineTests(KeyCode, {
-  test: it,
-  assertEquals: assert.equal
+  // Tests for usage with Node or Browser.
+  defineTests(mod, { test: it, assertEquals: assert.equal });
+})({
+  chai: this.chai || require('chai'),
+  mod: this.KeyCode || require('./dist/keycode.cjs.js'),
+  defs: this.KeyCodeJSTestDefinitions || require('./dist/test-definitions.umd.js')
 });
