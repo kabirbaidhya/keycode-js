@@ -29,11 +29,11 @@ export default [
     }
   },
   {
-    input: 'test/test-definitions.ts',
+    input: 'test/tests.ts',
     output: {
-      name: 'KeyCodeJSTestDefinitions',
+      name: 'KeyCodeJSTests',
       format: 'umd',
-      file: 'dist/test-definitions.umd.js'
+      file: 'test/tests.dist.umd.js'
     },
     plugins: [typescript()]
   }

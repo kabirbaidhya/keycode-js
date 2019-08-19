@@ -1,5 +1,5 @@
 const { assert } = chai;
-const { defineTests } = KeyCodeJSTestDefinitions;
+const { defineTests } = KeyCodeJSTests;
 
 const mod = KeyCode;
 
