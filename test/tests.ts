@@ -7,14 +7,12 @@ export interface TestUtils {
 }
 
 /**
- * Test Definitions.
+ * Tests.
  *
  * @param {*} mod
- * @param {TestUtils} utils
+ * @param {TestUtils} { test, assertEquals }
  */
-export function defineTests(mod: any, utils: TestUtils): void {
-  const { test, assertEquals } = utils;
-
+export function defineTests(mod: any, { test, assertEquals }: TestUtils): void {
   test('KEY_CANCEL equals 3', () => {
     assertEquals(mod.KEY_CANCEL, 3);
   });
