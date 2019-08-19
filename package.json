@@ -33,7 +33,7 @@
   "scripts": {
     "changelog": "./t changelog",
     "prepublishOnly": "yarn build",
-    "build": "rimraf dist/ mod.d.ts && rollup -c rollup.config.js && mv dist/mod.d.ts .",
+    "build": "rimraf dist test/dist mod.d.ts && rollup -c rollup.config.js && mv dist/mod.d.ts .",
     "test": "yarn build && ./t test"
   },
   "devDependencies": {

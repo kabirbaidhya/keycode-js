@@ -4,7 +4,8 @@
     "noImplicitAny": true,
     "outDir": "./dist",
     "target": "es5",
-    "declaration": true
+    "declaration": false,
+    "strict": true
   },
   "include": ["mod.ts"],
   "exclude": ["node_modules"]

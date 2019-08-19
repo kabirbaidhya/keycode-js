@@ -1,5 +1,5 @@
 const { assert } = require('chai');
-const { defineTests } = require('./tests.dist.umd');
+const { defineTests } = require('./dist/tests.umd');
 
 const mod = require('../dist/keycode.cjs');
 

@@ -8,7 +8,14 @@ export default [
       name: 'KeyCode',
       format: 'cjs',
       file: 'dist/keycode.cjs.js'
-    }
+    },
+    plugins: [
+      typescript({
+        tsconfigOverride: {
+          compilerOptions: { declaration: true }
+        }
+      })
+    ]
   },
   {
     input: 'mod.ts',
@@ -33,7 +40,7 @@ export default [
     output: {
       name: 'KeyCodeJSTests',
       format: 'umd',
-      file: 'test/tests.dist.umd.js'
+      file: 'test/dist/tests.umd.js'
     },
     plugins: [typescript()]
   }
