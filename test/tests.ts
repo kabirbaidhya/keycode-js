@@ -12,7 +12,7 @@ export interface TestUtils {
  * @param {*} mod
  * @param {TestUtils} { test, assertEquals }
  */
-export function defineTests(mod: any, { test, assertEquals }: TestUtils): void {
+export function beginTests(mod: any, { test, assertEquals }: TestUtils): void {
   test('KEY_CANCEL equals 3', () => {
     assertEquals(mod.KEY_CANCEL, 3);
   });

@@ -1,6 +1,6 @@
 const { assert } = require('chai');
-const { defineTests } = require('./dist/tests.umd');
+const { beginTests } = require('./dist/tests.umd');
 
 const mod = require('../dist/keycode.cjs');
 
-defineTests(mod, { test: it, assertEquals: assert.equal });
+beginTests(mod, { test: it, assertEquals: assert.equal });
