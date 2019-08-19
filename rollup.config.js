@@ -35,6 +35,14 @@ export default [
       format: 'umd',
       file: 'test/dist/tests.umd.js'
     },
-    plugins: [typescript()]
+    plugins: [
+      typescript({
+        tsconfigOverride: {
+          compilerOptions: {
+            declaration: false
+          }
+        }
+      })
+    ]
   }
 ];
