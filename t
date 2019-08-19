@@ -20,7 +20,7 @@ test() {
   echo;\
     echo "Tests for Node (common js)" && mocha test/node.test.js && \
     echo "Tests for Browser" && mocha-headless-chrome -f test/browser.test.html && \
-    echo "Tests for Deno" && deno test/deno.test.ts
+    echo "Tests for Deno" && deno test/deno.test.ts --reload
 }
 
 # Run command received from args.
