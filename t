@@ -16,6 +16,12 @@ changelog() {
   github_changelog_generator --pr-label "**Improvements:**" --issue-line-labels=ALL --future-release="$NEXT"
 }
 
+build() {
+  rimraf dist test/dist mod.d.ts && \
+    rollup -c rollup.config.js && \
+    mv dist/mod.d.ts .
+}
+
 test() {
   echo;\
     echo "Tests for Node (common js)" && mocha test/node.test.js && \

@@ -31,10 +31,10 @@
     "ts"
   ],
   "scripts": {
+    "build": "./t build",
     "changelog": "./t changelog",
-    "prepublishOnly": "yarn build",
-    "build": "rimraf dist test/dist mod.d.ts && rollup -c rollup.config.js && mv dist/mod.d.ts .",
-    "test": "yarn build && ./t test"
+    "prepublishOnly": "./t build",
+    "test": "./t build && ./t test"
   },
   "devDependencies": {
     "chai": "^4.1.2",
