@@ -45,7 +45,7 @@ import { KEY_RETURN } from 'keycode-js';
 Or, using `<script>` tag:
 
 ```html
-<script src="https://unpkg.com/keycode-js@1.0.4/dist/keycode.min.js"></script>
+<script src="https://unpkg.com/keycode-js@2.0.0/dist/keycode.min.js"></script>
 ```
 
 Finally:
@@ -65,10 +65,10 @@ window.addEventListener('keyup', function(e) {
 
 ```ts
 // Import all constants
-import * as KeyCode from 'https://deno.land/x/keycode/mod.ts';
+import * as KeyCode from 'https://deno.land/x/keycode@v2.0.0/mod.ts';
 
 // Import individual constants
-import { KEY_ENTER } from 'https://deno.land/x/keycode/mod.ts';
+import { KEY_ENTER } from 'https://deno.land/x/keycode@v2.0.0/mod.ts';
 
 console.assert(KeyCode.KEY_ENTER === KEY_ENTER);
 ```
