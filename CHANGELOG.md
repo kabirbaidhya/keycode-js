@@ -1,5 +1,12 @@
 # Change Log
 
+## [v2.0.1](https://github.com/kabirbaidhya/keycode-js/tree/v2.0.1) (2019-08-20)
+[Full Changelog](https://github.com/kabirbaidhya/keycode-js/compare/v2.0.0...v2.0.1)
+
+**Improvements:**
+
+- Use named export for ES2015 [\#29](https://github.com/kabirbaidhya/keycode-js/pull/29) [[documentation](https://github.com/kabirbaidhya/keycode-js/labels/documentation)] ([mesaugat](https://github.com/mesaugat))
+
 ## [v2.0.0](https://github.com/kabirbaidhya/keycode-js/tree/v2.0.0) (2019-08-20)
 [Full Changelog](https://github.com/kabirbaidhya/keycode-js/compare/v1.0.4...v2.0.0)
 
@@ -13,7 +20,7 @@
 
 - Test and build enhancements for node, deno and browser builds [\#28](https://github.com/kabirbaidhya/keycode-js/pull/28) [[test](https://github.com/kabirbaidhya/keycode-js/labels/test)] ([kabirbaidhya](https://github.com/kabirbaidhya))
 - Include docs for usage with deno [\#27](https://github.com/kabirbaidhya/keycode-js/pull/27) [[documentation](https://github.com/kabirbaidhya/keycode-js/labels/documentation)] ([mesaugat](https://github.com/mesaugat))
-- Make keycode-js compatible with deno [\#24](https://github.com/kabirbaidhya/keycode-js/pull/24) [[feature](https://github.com/kabirbaidhya/keycode-js/labels/feature)] [[refactor](https://github.com/kabirbaidhya/keycode-js/labels/refactor)] ([mesaugat](https://github.com/mesaugat))
+- Make keycode-js compatible with deno [\#24](https://github.com/kabirbaidhya/keycode-js/pull/24) [[breaking change](https://github.com/kabirbaidhya/keycode-js/labels/breaking%20change)] [[feature](https://github.com/kabirbaidhya/keycode-js/labels/feature)] [[refactor](https://github.com/kabirbaidhya/keycode-js/labels/refactor)] ([mesaugat](https://github.com/mesaugat))
 - Change unpkg URL to next version when creating changelog [\#23](https://github.com/kabirbaidhya/keycode-js/pull/23) ([mesaugat](https://github.com/mesaugat))
 - Remove deprecated options from rollup config [\#22](https://github.com/kabirbaidhya/keycode-js/pull/22) ([mesaugat](https://github.com/mesaugat))
 - Run tests for both original library and the generated build  [\#20](https://github.com/kabirbaidhya/keycode-js/pull/20) [[test](https://github.com/kabirbaidhya/keycode-js/labels/test)] ([kabirbaidhya](https://github.com/kabirbaidhya))
