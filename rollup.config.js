@@ -27,5 +27,22 @@ export default [
       format: 'esm',
       file: 'dist/keycode.es6.js'
     }
+  },
+  {
+    input: 'test/tests.ts',
+    output: {
+      name: 'KeyCodeJSTests',
+      format: 'umd',
+      file: 'test/dist/tests.umd.js'
+    },
+    plugins: [
+      typescript({
+        tsconfigOverride: {
+          compilerOptions: {
+            declaration: false
+          }
+        }
+      })
+    ]
   }
 ];
