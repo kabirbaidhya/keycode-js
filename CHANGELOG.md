@@ -1,15 +1,17 @@
 # Change Log
 
-## [next](https://github.com/kabirbaidhya/keycode-js/tree/next) (2019-08-16)
-[Full Changelog](https://github.com/kabirbaidhya/keycode-js/compare/v1.0.4...next)
+## [v2.0.0](https://github.com/kabirbaidhya/keycode-js/tree/v2.0.0) (2019-08-20)
+[Full Changelog](https://github.com/kabirbaidhya/keycode-js/compare/v1.0.4...v2.0.0)
 
 **Closed issues:**
 
 - Add an example for usage with deno [\#26](https://github.com/kabirbaidhya/keycode-js/issues/26) [[example](https://github.com/kabirbaidhya/keycode-js/labels/example)] [[good first issue](https://github.com/kabirbaidhya/keycode-js/labels/good%20first%20issue)] [[help wanted](https://github.com/kabirbaidhya/keycode-js/labels/help%20wanted)]
+- Make sure everything works when used in browser via a script tag [\#25](https://github.com/kabirbaidhya/keycode-js/issues/25) [[test](https://github.com/kabirbaidhya/keycode-js/labels/test)]
 - Add support for deno i.e make it available on deno registry [\#21](https://github.com/kabirbaidhya/keycode-js/issues/21) [[feature](https://github.com/kabirbaidhya/keycode-js/labels/feature)]
 
 **Improvements:**
 
+- Test and build enhancements for node, deno and browser builds [\#28](https://github.com/kabirbaidhya/keycode-js/pull/28) [[test](https://github.com/kabirbaidhya/keycode-js/labels/test)] ([kabirbaidhya](https://github.com/kabirbaidhya))
 - Include docs for usage with deno [\#27](https://github.com/kabirbaidhya/keycode-js/pull/27) [[documentation](https://github.com/kabirbaidhya/keycode-js/labels/documentation)] ([mesaugat](https://github.com/mesaugat))
 - Make keycode-js compatible with deno [\#24](https://github.com/kabirbaidhya/keycode-js/pull/24) [[feature](https://github.com/kabirbaidhya/keycode-js/labels/feature)] [[refactor](https://github.com/kabirbaidhya/keycode-js/labels/refactor)] ([mesaugat](https://github.com/mesaugat))
 - Change unpkg URL to next version when creating changelog [\#23](https://github.com/kabirbaidhya/keycode-js/pull/23) ([mesaugat](https://github.com/mesaugat))
