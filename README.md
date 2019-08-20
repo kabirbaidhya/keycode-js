@@ -1,7 +1,7 @@
 # KeyCode Constants
 
 [![npm version](https://img.shields.io/npm/v/keycode-js.svg?style=flat-square)](https://www.npmjs.com/package/keycode-js)
-[![deno](https://img.shields.io/badge/deno-✔-green?style=flat-square)](https://deno.land/x/keycode/README.md)
+[![deno](https://img.shields.io/badge/deno-✔-green?style=flat-square)](https://deno.land/x/keycode/README.md#usagewithdeno)
 [![Build Status](https://img.shields.io/travis/kabirbaidhya/keycode-js.svg?style=flat-square)](https://travis-ci.org/kabirbaidhya/keycode-js)
 [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/kabirbaidhya/keycode-js.svg?style=flat-square&logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/kabirbaidhya/keycode-js/context:javascript)
 [![npm downloads per week](https://img.shields.io/npm/dw/keycode-js.svg?style=flat-square)](https://www.npmjs.com/package/keycode-js)
