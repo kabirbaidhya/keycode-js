@@ -8,7 +8,8 @@ export default [
       name: 'KeyCode',
       format: 'cjs',
       file: 'dist/keycode.cjs.js'
-    }
+    },
+    plugins: [typescript()]
   },
   {
     input: 'mod.ts',
