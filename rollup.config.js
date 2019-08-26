@@ -9,7 +9,15 @@ export default [
       format: 'cjs',
       file: 'dist/keycode.cjs.js'
     },
-    plugins: [typescript()]
+    plugins: [
+      typescript({
+        tsconfigOverride: {
+          compilerOptions: {
+            declaration: true
+          }
+        }
+      })
+    ]
   },
   {
     input: 'mod.ts',
@@ -36,14 +44,6 @@ export default [
       format: 'umd',
       file: 'test/dist/tests.umd.js'
     },
-    plugins: [
-      typescript({
-        tsconfigOverride: {
-          compilerOptions: {
-            declaration: false
-          }
-        }
-      })
-    ]
+    plugins: [typescript()]
   }
 ];
