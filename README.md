@@ -26,7 +26,7 @@ $ bower install keycode-js --save
 
 ## Usage
 
-Import the package using `require()` or ES/TypeScript `import` statement:
+Import the package using `require()` or ES / TypeScript `import` statement:
 
 ```js
 // CommonJS
