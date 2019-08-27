@@ -1,5 +1,12 @@
 # Change Log
 
+## [v2.0.2](https://github.com/kabirbaidhya/keycode-js/tree/v2.0.2) (2019-08-27)
+[Full Changelog](https://github.com/kabirbaidhya/keycode-js/compare/v2.0.1...v2.0.2)
+
+**Improvements:**
+
+- Make the main build \(common js\) fully-compatible with ES5 [\#31](https://github.com/kabirbaidhya/keycode-js/pull/31) [[bugfix](https://github.com/kabirbaidhya/keycode-js/labels/bugfix)] ([kabirbaidhya](https://github.com/kabirbaidhya))
+
 ## [v2.0.1](https://github.com/kabirbaidhya/keycode-js/tree/v2.0.1) (2019-08-20)
 [Full Changelog](https://github.com/kabirbaidhya/keycode-js/compare/v2.0.0...v2.0.1)
 
