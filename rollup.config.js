@@ -35,7 +35,8 @@ export default [
       name: 'KeyCode',
       format: 'esm',
       file: 'dist/keycode.es6.js'
-    }
+    },
+    plugins: [typescript()]
   },
   {
     input: 'test/tests.ts',
