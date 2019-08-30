@@ -8,7 +8,7 @@
     "Saugat Acharya <mesaugat@gmail.com>"
   ],
   "main": "dist/keycode.cjs.js",
-  "module": "dist/keycode.es6.js",
+  "module": "dist/keycode.esm.js",
   "types": "mod.d.ts",
   "unpkg": "dist/keycode.min.js",
   "jsdelivr": "dist/keycode.min.js",
