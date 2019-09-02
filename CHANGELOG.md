@@ -1,5 +1,12 @@
 # Change Log
 
+## [v2.0.3](https://github.com/kabirbaidhya/keycode-js/tree/v2.0.3) (2019-09-02)
+[Full Changelog](https://github.com/kabirbaidhya/keycode-js/compare/v2.0.2...v2.0.3)
+
+**Changes**
+
+- Generate ES5 compatible build [\#32](https://github.com/kabirbaidhya/keycode-js/pull/32) ([inspirado](https://github.com/inspirado))
+
 ## [v2.0.2](https://github.com/kabirbaidhya/keycode-js/tree/v2.0.2) (2019-08-27)
 [Full Changelog](https://github.com/kabirbaidhya/keycode-js/compare/v2.0.1...v2.0.2)
 

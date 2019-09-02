@@ -1,7 +1,7 @@
 # KeyCode Constants
 
 [![npm version](https://img.shields.io/npm/v/keycode-js.svg?style=flat-square)](https://www.npmjs.com/package/keycode-js)
-[![deno](https://img.shields.io/badge/deno-v2.0.2-green?style=flat-square)](https://deno.land/x/keycode/README.md#usagewithdeno)
+[![deno](https://img.shields.io/badge/deno-v2.0.3-green?style=flat-square)](https://deno.land/x/keycode/README.md#usagewithdeno)
 [![Build Status](https://img.shields.io/travis/kabirbaidhya/keycode-js.svg?style=flat-square)](https://travis-ci.org/kabirbaidhya/keycode-js)
 [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/kabirbaidhya/keycode-js.svg?style=flat-square&logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/kabirbaidhya/keycode-js/context:javascript)
 [![npm downloads per week](https://img.shields.io/npm/dw/keycode-js.svg?style=flat-square)](https://www.npmjs.com/package/keycode-js)
@@ -45,7 +45,7 @@ import { KEY_RETURN } from 'keycode-js';
 Or, using `<script>` tag:
 
 ```html
-<script src="https://unpkg.com/keycode-js@2.0.2/dist/keycode.min.js"></script>
+<script src="https://unpkg.com/keycode-js@2.0.3/dist/keycode.min.js"></script>
 ```
 
 Finally:
@@ -65,10 +65,10 @@ window.addEventListener('keyup', function(e) {
 
 ```ts
 // Import all constants
-import * as KeyCode from 'https://deno.land/x/keycode@v2.0.2/mod.ts';
+import * as KeyCode from 'https://deno.land/x/keycode@v2.0.3/mod.ts';
 
 // Import individual constants
-import { KEY_ENTER } from 'https://deno.land/x/keycode@v2.0.2/mod.ts';
+import { KEY_ENTER } from 'https://deno.land/x/keycode@v2.0.3/mod.ts';
 
 console.assert(KeyCode.KEY_ENTER === KEY_ENTER);
 ```
