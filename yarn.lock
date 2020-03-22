@@ -23,6 +23,21 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
+"@types/estree@*":
+  version "0.0.44"
+  resolved "https://registry.yarnpkg.com/@types/estree/-/estree-0.0.44.tgz#980cc5a29a3ef3bea6ff1f7d021047d7ea575e21"
+  integrity sha512-iaIVzr+w2ZJ5HkidlZ3EJM8VTZb2MJLCjw3V+505yVts0gRC4UMvjw0d1HPtGqI/HQC/KdsYtayfzl+AXY2R8g==
+
+"@types/node@*":
+  version "13.9.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.9.2.tgz#ace1880c03594cc3e80206d96847157d8e7fa349"
+  integrity sha512-bnoqK579sAYrQbp73wwglccjJ4sfRdKU7WNEZ5FW4K2U6Kc0/eZ5kvXG0JKsEKFB50zrFmfFt52/cvBbZa7eXg==
+
+acorn@^7.1.0:
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-7.1.1.tgz#e35668de0b402f359de515c5482a1ab9f89a69bf"
+  integrity sha512-add7dgA5ppRPxCFJoAGfMDi7PIBXq1RtGo7BhbLaxwrXPOmw8gq48Y9ozT01hUKy9byMjlR20EJhu5zlkErEkg==
+
 agent-base@^4.3.0:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/agent-base/-/agent-base-4.3.0.tgz#8165f01c436009bccad0b1d122f05ed770efc6ee"
@@ -396,7 +411,7 @@ fs.realpath@^1.0.0:
   resolved "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
   integrity sha1-FQStJSMVjKpA20onh8sBQRmU6k8=
 
-fsevents@~2.1.1, fsevents@~2.1.2:
+fsevents@~2.1.1:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.1.2.tgz#4c0a1fb34bc68e543b4b82a9ec392bfbda840805"
   integrity sha512-R4wDiBwZ0KzpgOWetKDug1FZcYhqYnUYKtfZYt4mD5SBz76q0KR4Q9o7GIPamsVPGmW3EYPPJ0dOOjvx32ldZA==
@@ -960,12 +975,14 @@ rollup-pluginutils@2.8.2, rollup-pluginutils@^2.8.2:
   dependencies:
     estree-walker "^0.6.1"
 
-rollup@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.1.0.tgz#552e248e397a06b9c6db878c0564ca4ee06729c9"
-  integrity sha512-gfE1455AEazVVTJoeQtcOq/U6GSxwoj4XPSWVsuWmgIxj7sBQNLDOSA82PbdMe+cP8ql8fR1jogPFe8Wg8g4SQ==
-  optionalDependencies:
-    fsevents "~2.1.2"
+rollup@^1.32.1:
+  version "1.32.1"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-1.32.1.tgz#4480e52d9d9e2ae4b46ba0d9ddeaf3163940f9c4"
+  integrity sha512-/2HA0Ec70TvQnXdzynFffkjA6XN+1e2pEv/uKS5Ulca40g2L7KuOE3riasHoNVHOsFD5KKZgDsMk1CP3Tw9s+A==
+  dependencies:
+    "@types/estree" "*"
+    "@types/node" "*"
+    acorn "^7.1.0"
 
 safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.2"
