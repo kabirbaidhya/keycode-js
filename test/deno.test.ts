@@ -6,3 +6,5 @@ import { beginTests } from './tests.ts';
 const test = (name: string, fn: () => void) => Deno.test({ name, fn });
 
 beginTests(mod, { test, assertEquals });
+
+await Deno.runTests();
