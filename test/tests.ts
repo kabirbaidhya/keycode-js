@@ -429,8 +429,20 @@ export function beginTests(mod: any, { test, assertEquals }: TestUtils): void {
     assertEquals(mod.KEY_SCROLL_LOCK, 145);
   });
 
+  test('KEY_SEMICOLON equals 186', () => {
+    assertEquals(mod.KEY_SEMICOLON, 186);
+  });
+
+  test('KEY_EQUALS equals 187', () => {
+    assertEquals(mod.KEY_EQUALS, 187);
+  });
+
   test('KEY_COMMA equals 188', () => {
     assertEquals(mod.KEY_COMMA, 188);
+  });
+
+  test('KEY_DASH equals 189', () => {
+    assertEquals(mod.KEY_DASH, 189);
   });
 
   test('KEY_PERIOD equals 190', () => {
