@@ -1,5 +1,17 @@
 # Change Log
 
+## [v3.0.0](https://github.com/kabirbaidhya/keycode-js/tree/v3.0.0) (2020-06-05)
+[Full Changelog](https://github.com/kabirbaidhya/keycode-js/compare/v2.0.3...v3.0.0)
+
+**Closed Issues**
+
+- Missing keycodes [\#35](https://github.com/kabirbaidhya/keycode-js/issues/35) [[feature](https://github.com/kabirbaidhya/keycode-js/labels/feature)]
+
+**Changes**
+
+- Update missing keys and prefix key codes specific to firefox [\#36](https://github.com/kabirbaidhya/keycode-js/pull/36) [[breaking change](https://github.com/kabirbaidhya/keycode-js/labels/breaking%20change)] ([kabirbaidhya](https://github.com/kabirbaidhya))
+- Update outdated dev dependencies [\#33](https://github.com/kabirbaidhya/keycode-js/pull/33) [[dependencies](https://github.com/kabirbaidhya/keycode-js/labels/dependencies)] ([kabirbaidhya](https://github.com/kabirbaidhya))
+
 ## [v2.0.3](https://github.com/kabirbaidhya/keycode-js/tree/v2.0.3) (2019-09-02)
 [Full Changelog](https://github.com/kabirbaidhya/keycode-js/compare/v2.0.2...v2.0.3)
 
