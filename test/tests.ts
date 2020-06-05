@@ -37,10 +37,6 @@ export function beginTests(mod: any, { test, assertEquals }: TestUtils): void {
     assertEquals(mod.KEY_RETURN, 13);
   });
 
-  test('KEY_ENTER equals 14', () => {
-    assertEquals(mod.KEY_ENTER, 14);
-  });
-
   test('KEY_SHIFT equals 16', () => {
     assertEquals(mod.KEY_SHIFT, 16);
   });
@@ -153,14 +149,6 @@ export function beginTests(mod: any, { test, assertEquals }: TestUtils): void {
     assertEquals(mod.KEY_9, 57);
   });
 
-  test('KEY_SEMICOLON equals 59', () => {
-    assertEquals(mod.KEY_SEMICOLON, 59);
-  });
-
-  test('KEY_EQUALS equals 61', () => {
-    assertEquals(mod.KEY_EQUALS, 61);
-  });
-
   test('KEY_A equals 65', () => {
     assertEquals(mod.KEY_A, 65);
   });
@@ -269,8 +257,8 @@ export function beginTests(mod: any, { test, assertEquals }: TestUtils): void {
     assertEquals(mod.KEY_LEFT_CMD, 91);
   });
 
-  test('KEY_RIGHT_CMD equals 93', () => {
-    assertEquals(mod.KEY_RIGHT_CMD, 93);
+  test('KEY_RIGHT_CMD equals 92', () => {
+    assertEquals(mod.KEY_RIGHT_CMD, 92);
   });
 
   test('KEY_CONTEXT_MENU equals 93', () => {
@@ -323,10 +311,6 @@ export function beginTests(mod: any, { test, assertEquals }: TestUtils): void {
 
   test('KEY_ADD equals 107', () => {
     assertEquals(mod.KEY_ADD, 107);
-  });
-
-  test('KEY_SEPARATOR equals 108', () => {
-    assertEquals(mod.KEY_SEPARATOR, 108);
   });
 
   test('KEY_SUBTRACT equals 109', () => {
@@ -445,8 +429,20 @@ export function beginTests(mod: any, { test, assertEquals }: TestUtils): void {
     assertEquals(mod.KEY_SCROLL_LOCK, 145);
   });
 
+  test('KEY_SEMICOLON equals 186', () => {
+    assertEquals(mod.KEY_SEMICOLON, 186);
+  });
+
+  test('KEY_EQUALS equals 187', () => {
+    assertEquals(mod.KEY_EQUALS, 187);
+  });
+
   test('KEY_COMMA equals 188', () => {
     assertEquals(mod.KEY_COMMA, 188);
+  });
+
+  test('KEY_DASH equals 189', () => {
+    assertEquals(mod.KEY_DASH, 189);
   });
 
   test('KEY_PERIOD equals 190', () => {
@@ -477,7 +473,23 @@ export function beginTests(mod: any, { test, assertEquals }: TestUtils): void {
     assertEquals(mod.KEY_QUOTE, 222);
   });
 
-  test('KEY_META equals 224', () => {
-    assertEquals(mod.KEY_META, 224);
+  test('KEY_FIREFOX_ENTER equals 14', () => {
+    assertEquals(mod.KEY_FIREFOX_ENTER, 14);
+  });
+
+  test('KEY_FIREFOX_SEMICOLON equals 59', () => {
+    assertEquals(mod.KEY_FIREFOX_SEMICOLON, 59);
+  });
+
+  test('KEY_FIREFOX_EQUALS equals 61', () => {
+    assertEquals(mod.KEY_FIREFOX_EQUALS, 61);
+  });
+
+  test('KEY_FIREFOX_SEPARATOR equals 108', () => {
+    assertEquals(mod.KEY_FIREFOX_SEPARATOR, 108);
+  });
+
+  test('KEY_FIREFOX_META equals 224', () => {
+    assertEquals(mod.KEY_FIREFOX_META, 224);
   });
 }
