@@ -1,4 +1,5 @@
 // Key code constants
+// Available values for `KeyboardEvent.keyCode` attribute.
 export const KEY_CANCEL = 3;
 export const KEY_HELP = 6;
 export const KEY_BACK_SPACE = 8;
@@ -122,7 +123,8 @@ export const KEY_FIREFOX_EQUALS = 61;
 export const KEY_FIREFOX_SEPARATOR = 108;
 export const KEY_FIREFOX_META = 224;
 
-// Key values
+// Key values constants
+// Available values for `KeyboardEvent.key` attribute.
 export const VALUE_CANCEL = 'Cancel';
 export const VALUE_HELP = 'Help';
 export const VALUE_BACK_SPACE = 'Backspace';
