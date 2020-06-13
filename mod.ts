@@ -130,6 +130,7 @@ export const VALUE_HELP = 'Help';
 export const VALUE_BACK_SPACE = 'Backspace';
 export const VALUE_TAB = 'Tab';
 export const VALUE_CLEAR = 'Clear';
+export const VALUE_ENTER = 'Enter';
 export const VALUE_RETURN = 'Enter';
 export const VALUE_SHIFT = 'Shift';
 export const VALUE_CONTROL = 'Control';
