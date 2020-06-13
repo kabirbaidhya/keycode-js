@@ -1,3 +1,4 @@
+// Key code constants
 export const KEY_CANCEL = 3;
 export const KEY_HELP = 6;
 export const KEY_BACK_SPACE = 8;
@@ -114,9 +115,10 @@ export const KEY_BACK_SLASH = 220;
 export const KEY_CLOSE_BRACKET = 221;
 export const KEY_QUOTE = 222;
 
-// Key codes specific to firefox only.
+// Key code constants specific to firefox only.
 export const KEY_FIREFOX_ENTER = 14;
 export const KEY_FIREFOX_SEMICOLON = 59;
 export const KEY_FIREFOX_EQUALS = 61;
 export const KEY_FIREFOX_SEPARATOR = 108;
 export const KEY_FIREFOX_META = 224;
+
