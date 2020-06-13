@@ -80,9 +80,9 @@ import { KEY_ENTER } from 'https://deno.land/x/keycode@v3.0.0/mod.ts';
 console.assert(KeyCode.KEY_ENTER === KEY_ENTER);
 ```
 
-## Available Constants
+## Available keyCode Constants
 
-For more information [click here](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/keyCode#Constants_for_keyCode_value).
+List of available constants that corresponds to the browser's [`KeyboardEvent.keyCode`](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/keyCode) attribute. For more information [click here](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/keyCode#Constants_for_keyCode_value).
 
 | Key Name              | Constant                | Value |
 | --------------------- | ----------------------- | ----- |
