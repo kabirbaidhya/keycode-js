@@ -332,6 +332,131 @@ List of available constants that corresponds to the browser's [`KeyboardEvent.ke
 | Close Bracket  | VALUE_CLOSE_BRACKET                               | `")"`           |
 | Quote          | VALUE_QUOTE                                       | `"'"`           |
 
+### 3. Key code constants
+
+| Key Name               | Constant                   | Value              |
+|------------------------|----------------------------|--------------------|
+| (Undefined)            | CODE_UNIDENTIFIED          | `"Unidentified"`   |
+| Escape                 | CODE_ESCAPE                | `"Escape"`         |
+| Dash / Minus           | CODE_MINUS<br/>CODE_DASH   | `"Minus"`          |
+| Equals                 | CODE_EQUALS                | `"Equal"`          |
+| Backspace              | CODE_BACK_SPACE            | `"Backspace"`      |
+| Tab                    | CODE_TAB                   | `"Tab"`            |
+| Return                 | CODE_ENTER<br/>CODE_RETURN | `"Enter"`          |
+| Shift (Left)           | CODE_SHIFT_LEFT            | `"ShiftLeft"`      |
+| Shift (Right)          | CODE_SHIFT_RIGHT           | `"ShiftRight"`     |
+| Control (Left)         | CODE_CONTROL_LEFT          | `"ControlLeft"`    |
+| Control (Right)        | CODE_CONTROL_RIGHT         | `"ControlRight"`   |
+| Alt (Left)             | CODE_ALT_LEFT              | `"AltLeft"`        |
+| Alt (Right)            | CODE_ALT_RIGHT             | `"AltRight"`       |
+| Pause                  | CODE_PAUSE                 | `"Pause"`          |
+| Caps Lock              | CODE_CAPS_LOCK             | `"CapsLock"`       |
+| Space                  | CODE_SPACE                 | `"Space"`          |
+| Page Up                | CODE_PAGE_UP               | `"PageUp"`         |
+| Page Down              | CODE_PAGE_DOWN             | `"PageDown"`       |
+| End                    | CODE_END                   | `"End"`            |
+| Home                   | CODE_HOME                  | `"Home"`           |
+| Left                   | CODE_LEFT                  | `"ArrowLeft"`      |
+| Up                     | CODE_UP                    | `"ArrowUp"`        |
+| Right                  | CODE_RIGHT                 | `"ArrowRight"`     |
+| Down                   | CODE_DOWN                  | `"ArrowDown"`      |
+| Print Screen           | CODE_PRINTSCREEN           | `"PrintScreen"`    |
+| Insert                 | CODE_INSERT                | `"Insert"`         |
+| Delete                 | CODE_DELETE                | `"Delete"`         |
+| 0                      | CODE_0                     | `"Digit0"`         |
+| 1                      | CODE_1                     | `"Digit1"`         |
+| 2                      | CODE_2                     | `"Digit2"`         |
+| 3                      | CODE_3                     | `"Digit3"`         |
+| 4                      | CODE_4                     | `"Digit4"`         |
+| 5                      | CODE_5                     | `"Digit5"`         |
+| 6                      | CODE_6                     | `"Digit6"`         |
+| 7                      | CODE_7                     | `"Digit7"`         |
+| 8                      | CODE_8                     | `"Digit8"`         |
+| 9                      | CODE_9                     | `"Digit9"`         |
+| A                      | CODE_A                     | `"KeyA"`           |
+| B                      | CODE_B                     | `"KeyB"`           |
+| C                      | CODE_C                     | `"KeyC"`           |
+| D                      | CODE_D                     | `"KeyD"`           |
+| E                      | CODE_E                     | `"KeyE"`           |
+| F                      | CODE_F                     | `"KeyF"`           |
+| G                      | CODE_G                     | `"KeyG"`           |
+| H                      | CODE_H                     | `"KeyH"`           |
+| I                      | CODE_I                     | `"KeyI"`           |
+| J                      | CODE_J                     | `"KeyJ"`           |
+| K                      | CODE_K                     | `"KeyK"`           |
+| L                      | CODE_L                     | `"KeyL"`           |
+| M                      | CODE_M                     | `"KeyM"`           |
+| N                      | CODE_N                     | `"KeyN"`           |
+| O                      | CODE_O                     | `"KeyO"`           |
+| P                      | CODE_P                     | `"KeyP"`           |
+| Q                      | CODE_Q                     | `"KeyQ"`           |
+| R                      | CODE_R                     | `"KeyR"`           |
+| S                      | CODE_S                     | `"KeyS"`           |
+| T                      | CODE_T                     | `"KeyT"`           |
+| U                      | CODE_U                     | `"KeyU"`           |
+| V                      | CODE_V                     | `"KeyV"`           |
+| W                      | CODE_W                     | `"KeyW"`           |
+| X                      | CODE_X                     | `"KeyX"`           |
+| Y                      | CODE_Y                     | `"KeyY"`           |
+| Z                      | CODE_Z                     | `"KeyZ"`           |
+| Cmd ⌘ / Window (Left)  | CODE_META_LEFT             | `"MetaLeft"`       |
+| Cmd ⌘ / Window (Left)  | CODE_OS_LEFT               | `"OSLeft"`         |
+| Cmd ⌘ / Window (Right) | CODE_META_RIGHT            | `"MetaRight"`      |
+| Cmd ⌘ / Window (Right) | CODE_OS_RIGHT              | `"OSRight"`        |
+| Context Menu           | CODE_CONTEXT_MENU          | `"ContextMenu"`    |
+| Numpad 0               | CODE_NUMPAD0               | `"Numpad0"`        |
+| Numpad 1               | CODE_NUMPAD1               | `"Numpad1"`        |
+| Numpad 2               | CODE_NUMPAD2               | `"Numpad2"`        |
+| Numpad 3               | CODE_NUMPAD3               | `"Numpad3"`        |
+| Numpad 4               | CODE_NUMPAD4               | `"Numpad4"`        |
+| Numpad 5               | CODE_NUMPAD5               | `"Numpad5"`        |
+| Numpad 6               | CODE_NUMPAD6               | `"Numpad6"`        |
+| Numpad 7               | CODE_NUMPAD7               | `"Numpad7"`        |
+| Numpad 8               | CODE_NUMPAD8               | `"Numpad8"`        |
+| Numpad 9               | CODE_NUMPAD9               | `"Numpad9"`        |
+| Multiply               | CODE_NUMPAD_MULTIPLY       | `"NumpadMultiply"` |
+| Add                    | CODE_NUMPAD_ADD            | `"NumpadAdd"`      |
+| Subtract               | CODE_NUMPAD_SUBTRACT       | `"NumpadSubtract"` |
+| Decimal                | CODE_NUMPAD_DECIMAL        | `"NumpadDecimal"`  |
+| Divide                 | CODE_NUMPAD_DIVIDE         | `"NumpadDivide"`   |
+| Numpad Enter           | CODE_NUMPAD_ENTER          | `"NumpadEnter"`    |
+| F1                     | CODE_F1                    | `"F1"`             |
+| F2                     | CODE_F2                    | `"F2"`             |
+| F3                     | CODE_F3                    | `"F3"`             |
+| F4                     | CODE_F4                    | `"F4"`             |
+| F5                     | CODE_F5                    | `"F5"`             |
+| F6                     | CODE_F6                    | `"F6"`             |
+| F7                     | CODE_F7                    | `"F7"`             |
+| F8                     | CODE_F8                    | `"F8"`             |
+| F9                     | CODE_F9                    | `"F9"`             |
+| F10                    | CODE_F10                   | `"F10"`            |
+| F11                    | CODE_F11                   | `"F11"`            |
+| F12                    | CODE_F12                   | `"F12"`            |
+| F13                    | CODE_F13                   | `"F13"`            |
+| F14                    | CODE_F14                   | `"F14"`            |
+| F15                    | CODE_F15                   | `"F15"`            |
+| F16                    | CODE_F16                   | `"F16"`            |
+| F17                    | CODE_F17                   | `"F17"`            |
+| F18                    | CODE_F18                   | `"F18"`            |
+| F19                    | CODE_F19                   | `"F19"`            |
+| F20                    | CODE_F20                   | `"F20"`            |
+| F21                    | CODE_F21                   | `"F21"`            |
+| F22                    | CODE_F22                   | `"F22"`            |
+| F23                    | CODE_F23                   | `"F23"`            |
+| F24                    | CODE_F24                   | `"F24"`            |
+| Num Lock               | CODE_NUM_LOCK              | `"NumLock"`        |
+| Scroll Lock            | CODE_SCROLL_LOCK           | `"ScrollLock"`     |
+| Semicolon              | CODE_SEMICOLON             | `"Semicolon"`      |
+| Comma                  | CODE_COMMA                 | `"Comma"`          |
+| Period                 | CODE_PERIOD                | `"Period"`         |
+| Slash                  | CODE_SLASH                 | `"Slash"`          |
+| Back Quote             | CODE_BACK_QUOTE            | `"Backquote"`      |
+| Open Bracket           | CODE_OPEN_BRACKET          | `"BracketLeft"`    |
+| Back Slash             | CODE_BACK_SLASH            | `"Backslash"`      |
+| Close Bracket          | CODE_CLOSE_BRACKET         | `"BracketRight"`   |
+| Quote                  | CODE_QUOTE                 | `"Quote"`          |
+
+
 ## Contributing
 
 All kinds of contributions are welcome. Please feel free to propose PRs, report issues and suggestions to improve.
