@@ -1,6 +1,6 @@
 {
   "name": "keycode-js",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "A JavaScript package with Key Code constants",
   "license": "MIT",
   "author": "Kabir Baidhya <kabirbaidhya@gmail.com>",

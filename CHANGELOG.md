@@ -1,5 +1,13 @@
 # Change Log
 
+## [v3.1.0](https://github.com/kabirbaidhya/keycode-js/tree/v3.1.0) (2020-06-14)
+[Full Changelog](https://github.com/kabirbaidhya/keycode-js/compare/v3.0.0...v3.1.0)
+
+**Changes**
+
+- Add key event code constants [\#38](https://github.com/kabirbaidhya/keycode-js/pull/38) [[feature](https://github.com/kabirbaidhya/keycode-js/labels/feature)] ([kabirbaidhya](https://github.com/kabirbaidhya))
+- Add key value constants [\#37](https://github.com/kabirbaidhya/keycode-js/pull/37) [[feature](https://github.com/kabirbaidhya/keycode-js/labels/feature)] ([kabirbaidhya](https://github.com/kabirbaidhya))
+
 ## [v3.0.0](https://github.com/kabirbaidhya/keycode-js/tree/v3.0.0) (2020-06-05)
 [Full Changelog](https://github.com/kabirbaidhya/keycode-js/compare/v2.0.3...v3.0.0)
 
