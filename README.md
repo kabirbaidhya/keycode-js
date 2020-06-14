@@ -52,7 +52,15 @@ Finally:
 
 ```js
 window.addEventListener('keyup', function(e) {
-  // Check the keyCode value.
+  // You may do one of these checks.
+
+  // Check the code value.
+  if (e.code === KeyCode.CODE_RETURN) {
+    console.log('It was the Return key.');
+    return;
+  }
+
+  // OR, check the keyCode value.
   if (e.keyCode === KeyCode.KEY_RETURN) {
     console.log('It was the Return key.');
     return;
