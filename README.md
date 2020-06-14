@@ -94,7 +94,18 @@ console.assert(KeyCode.KEY_ENTER === KEY_ENTER);
 
 List of available constants that corresponds to the browser's [`KeyboardEvent.code`](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/code) attribute.
 
-[Reference](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/code/code_values)
+[[Reference](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/code/code_values)]
+
+
+**Example usage**
+
+```js
+window.addEventListener('keyup', function(e) {
+  console.log('Enter Key:', (e.code === KeyCode.CODE_RETURN));
+});
+```
+
+**List**
 
 | Key Name               | Constant                   | Value              |
 |------------------------|----------------------------|--------------------|
@@ -222,7 +233,17 @@ List of available constants that corresponds to the browser's [`KeyboardEvent.co
 
 List of available numeric constants that corresponds to the browser's [`KeyboardEvent.keyCode`](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/keyCode) attribute.
 
-[Reference](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/keyCode#Constants_for_keyCode_value)
+[[Reference](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/keyCode#Constants_for_keyCode_value)]
+
+**Example usage**
+
+```js
+window.addEventListener('keyup', function(e) {
+  console.log('Enter Key:', (e.keyCode === KeyCode.KEY_RETURN));
+});
+```
+
+**List**
 
 | Key Name              | Constant                | Value |
 | --------------------- | ----------------------- | ----- |
@@ -350,6 +371,16 @@ List of available numeric constants that corresponds to the browser's [`Keyboard
 ### 3. Key value constants
 
 List of available constants that corresponds to the browser's [`KeyboardEvent.key`](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key) attribute.
+
+**Example usage**
+
+```js
+window.addEventListener('keyup', function(e) {
+  console.log('Enter Key:', (e.key === KeyCode.VALUE_RETURN));
+});
+```
+
+**List**
 
 | Key Name       | Constant                                          | Value           |
 |----------------|---------------------------------------------------|-----------------|
