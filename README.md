@@ -52,7 +52,14 @@ Finally:
 
 ```js
 window.addEventListener('keyup', function(e) {
+  // Check the keyCode value.
   if (e.keyCode === KeyCode.KEY_RETURN) {
+    console.log('It was the Return key.');
+    return;
+  }
+
+  // OR, check the key value.
+  if (e.key === KeyCode.VALUE_RETURN) {
     console.log('It was the Return key.');
     return;
   }
@@ -74,6 +81,10 @@ console.assert(KeyCode.KEY_ENTER === KEY_ENTER);
 ```
 
 ## Available Constants
+
+### 1. Key code constants (numeric)
+
+List of available constants that corresponds to the browser's [`KeyboardEvent.keyCode`](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/keyCode) attribute.
 
 For more information [click here](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/keyCode#Constants_for_keyCode_value).
 
@@ -199,6 +210,127 @@ For more information [click here](https://developer.mozilla.org/en-US/docs/Web/A
 | Close Bracket         | KEY_CLOSE_BRACKET       | 221   |
 | Quote                 | KEY_QUOTE               | 222   |
 | Meta (Firefox)        | KEY_FIREFOX_META        | 224   |
+
+### 2. Key value constants
+
+List of available constants that corresponds to the browser's [`KeyboardEvent.key`](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key) attribute.
+
+| Key Name       | Constant                                          | Value           |
+|----------------|---------------------------------------------------|-----------------|
+| Cancel         | VALUE_CANCEL                                      | `"Cancel"`      |
+| Help           | VALUE_HELP                                        | `"Help"`        |
+| Backspace      | VALUE_BACK_SPACE                                  | `"Backspace"`   |
+| Tab            | VALUE_TAB                                         | `"Tab"`         |
+| Clear          | VALUE_CLEAR                                       | `"Clear"`       |
+| Return         | VALUE_ENTER <br/> VALUE_RETURN                    | `"Enter"`       |
+| Shift          | VALUE_SHIFT                                       | `"Shift"`       |
+| Control        | VALUE_CONTROL                                     | `"Control"`     |
+| Alt            | VALUE_ALT                                         | `"Alt"`         |
+| Pause          | VALUE_PAUSE                                       | `"Pause"`       |
+| Caps Lock      | VALUE_CAPS_LOCK                                   | `"CapsLock"`    |
+| Escape         | VALUE_ESCAPE                                      | `"Escape"`      |
+| Space          | VALUE_SPACE                                       | `" "`           |
+| Page up        | VALUE_PAGE_UP                                     | `"PageUp"`      |
+| Page down      | VALUE_PAGE_DOWN                                   | `"PageDown"`    |
+| End            | VALUE_END                                         | `"End"`         |
+| Home           | VALUE_HOME                                        | `"Home"`        |
+| Left           | VALUE_LEFT                                        | `"ArrowLeft"`   |
+| Up             | VALUE_UP                                          | `"ArrowUp"`     |
+| Right          | VALUE_RIGHT                                       | `"ArrowRight"`  |
+| Down           | VALUE_DOWN                                        | `"ArrowDown"`   |
+| Print Screen   | VALUE_PRINTSCREEN                                 | `"PrintScreen"` |
+| Insert         | VALUE_INSERT                                      | `"Insert"`      |
+| Delete         | VALUE_DELETE                                      | `"Delete"`      |
+| 0              | VALUE_0                                           | `"0"`           |
+| 1              | VALUE_1                                           | `"1"`           |
+| 2              | VALUE_2                                           | `"2"`           |
+| 3              | VALUE_3                                           | `"3"`           |
+| 4              | VALUE_4                                           | `"4"`           |
+| 5              | VALUE_5                                           | `"5"`           |
+| 6              | VALUE_6                                           | `"6"`           |
+| 7              | VALUE_7                                           | `"7"`           |
+| 8              | VALUE_8                                           | `"8"`           |
+| 9              | VALUE_9                                           | `"9"`           |
+| A              | VALUE_A                                           | `"a"`           |
+| B              | VALUE_B                                           | `"b"`           |
+| C              | VALUE_C                                           | `"c"`           |
+| D              | VALUE_D                                           | `"d"`           |
+| E              | VALUE_E                                           | `"e"`           |
+| F              | VALUE_F                                           | `"f"`           |
+| G              | VALUE_G                                           | `"g"`           |
+| H              | VALUE_H                                           | `"h"`           |
+| I              | VALUE_I                                           | `"i"`           |
+| J              | VALUE_J                                           | `"j"`           |
+| K              | VALUE_K                                           | `"k"`           |
+| L              | VALUE_L                                           | `"l"`           |
+| M              | VALUE_M                                           | `"m"`           |
+| N              | VALUE_N                                           | `"n"`           |
+| O              | VALUE_O                                           | `"o"`           |
+| P              | VALUE_P                                           | `"p"`           |
+| Q              | VALUE_Q                                           | `"q"`           |
+| R              | VALUE_R                                           | `"r"`           |
+| S              | VALUE_S                                           | `"s"`           |
+| T              | VALUE_T                                           | `"t"`           |
+| U              | VALUE_U                                           | `"u"`           |
+| V              | VALUE_V                                           | `"v"`           |
+| W              | VALUE_W                                           | `"w"`           |
+| X              | VALUE_X                                           | `"x"`           |
+| Y              | VALUE_Y                                           | `"y"`           |
+| Z              | VALUE_Z                                           | `"z"`           |
+| Cmd ⌘ / Window | VALUE_META<br/>VALUE_LEFT_CMD<br/>VALUE_RIGHT_CMD | `"Meta"`        |
+| Context Menu   | VALUE_CONTEXT_MENU                                | `"ContextMenu"` |
+| Numpad 0       | VALUE_NUMPAD0                                     | `"0"`           |
+| Numpad 1       | VALUE_NUMPAD1                                     | `"1"`           |
+| Numpad 2       | VALUE_NUMPAD2                                     | `"2"`           |
+| Numpad 3       | VALUE_NUMPAD3                                     | `"3"`           |
+| Numpad 4       | VALUE_NUMPAD4                                     | `"4"`           |
+| Numpad 5       | VALUE_NUMPAD5                                     | `"5"`           |
+| Numpad 6       | VALUE_NUMPAD6                                     | `"6"`           |
+| Numpad 7       | VALUE_NUMPAD7                                     | `"7"`           |
+| Numpad 8       | VALUE_NUMPAD8                                     | `"8"`           |
+| Numpad 9       | VALUE_NUMPAD9                                     | `"9"`           |
+| Multiply       | VALUE_MULTIPLY                                    | `"*"`           |
+| Add            | VALUE_ADD                                         | `"+"`           |
+| Subtract       | VALUE_SUBTRACT                                    | `"-"`           |
+| Decimal        | VALUE_DECIMAL                                     | `"."`           |
+| Divide         | VALUE_DIVIDE                                      | `"/"`           |
+| F1             | VALUE_F1                                          | `"F1"`          |
+| F2             | VALUE_F2                                          | `"F2"`          |
+| F3             | VALUE_F3                                          | `"F3"`          |
+| F4             | VALUE_F4                                          | `"F4"`          |
+| F5             | VALUE_F5                                          | `"F5"`          |
+| F6             | VALUE_F6                                          | `"F6"`          |
+| F7             | VALUE_F7                                          | `"F7"`          |
+| F8             | VALUE_F8                                          | `"F8"`          |
+| F9             | VALUE_F9                                          | `"F9"`          |
+| F10            | VALUE_F10                                         | `"F10"`         |
+| F11            | VALUE_F11                                         | `"F11"`         |
+| F12            | VALUE_F12                                         | `"F12"`         |
+| F13            | VALUE_F13                                         | `"F13"`         |
+| F14            | VALUE_F14                                         | `"F14"`         |
+| F15            | VALUE_F15                                         | `"F15"`         |
+| F16            | VALUE_F16                                         | `"F16"`         |
+| F17            | VALUE_F17                                         | `"F17"`         |
+| F18            | VALUE_F18                                         | `"F18"`         |
+| F19            | VALUE_F19                                         | `"F19"`         |
+| F20            | VALUE_F20                                         | `"F20"`         |
+| F21            | VALUE_F21                                         | `"F21"`         |
+| F22            | VALUE_F22                                         | `"F22"`         |
+| F23            | VALUE_F23                                         | `"F23"`         |
+| F24            | VALUE_F24                                         | `"F24"`         |
+| Num Lock       | VALUE_NUM_LOCK                                    | `"NumLock"`     |
+| Scroll Lock    | VALUE_SCROLL_LOCK                                 | `"ScrollLock"`  |
+| Semicolon      | VALUE_SEMICOLON                                   | `";"`           |
+| Equals         | VALUE_EQUALS                                      | `"="`           |
+| Comma          | VALUE_COMMA                                       | `","`           |
+| Dash           | VALUE_DASH                                        | `"-"`           |
+| Period         | VALUE_PERIOD                                      | `"."`           |
+| Slash          | VALUE_SLASH                                       | `"/"`           |
+| Back Quote     | VALUE_BACK_QUOTE                                  | ``"`"``         |
+| Open Bracket   | VALUE_OPEN_BRACKET                                | `"("`           |
+| Back Slash     | VALUE_BACK_SLASH                                  | `"\"`           |
+| Close Bracket  | VALUE_CLOSE_BRACKET                               | `")"`           |
+| Quote          | VALUE_QUOTE                                       | `"'"`           |
 
 ## Contributing
 
