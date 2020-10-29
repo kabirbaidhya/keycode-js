@@ -1,0 +1,10 @@
+{
+    "name": "keycode",
+    "description": "A javascript package with key code constants.",
+    "homepage": "https://github.com/kabirbaidhya/keycode-js",
+    "files": [
+    "./**/*.ts",
+    "README.md"
+    ],
+    "entry": "./mod.ts"
+}
