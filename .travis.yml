@@ -2,13 +2,13 @@ language: node_js
 
 node_js:
   - node
-  - 11
+  - 14
+  - 12
   - 10
-  - 8
 
 cache: yarn
 
 before_script:
   - curl -fsSL https://deno.land/x/install/install.sh | sh -s v0.36.0
-  - deno --version
   - export PATH="/home/travis/.deno/bin:$PATH"
+  - deno --version
